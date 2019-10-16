@@ -4,6 +4,7 @@ layout: col-sidebar
 title: OWASP machine learning security top 10
 tags: example-tag
 level: 4
+type: documentation
 
 ---
 
