@@ -18,7 +18,7 @@ type: documentation
 <tbody>
 <tr class="odd">
 <h2 id="project_about">Project About</h2>
-<p><span style="color:#ff0000"> {{:Template:Project About</p></td>
+<p><span style="color:#ff0000"> :Template:Project About</p></td>
 <td><p>project_name=Machine Learning Security Top 10</p></td>
 <h2 id="owasp_documentation_project_template">OWASP Documentation Project Template</h2>
 <p><span style="color:#ff0000"></p>
