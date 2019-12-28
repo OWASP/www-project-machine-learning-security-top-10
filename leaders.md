@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Abraham Kang](mailto://abraham.kang@owasp.org)
+* [Abraham Kang](mailto:abraham.kang@owasp.org)
