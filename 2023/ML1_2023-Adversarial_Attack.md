@@ -16,20 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| ML Exploitability:   | Prevalence: XX,       | Technical: XX         |
-| XX                   | Detectability: XX     |                       |
-|                      |                       |                       |
-| Application /        |                       |                       |
-| Operations           |                       |                       |
-+----------------------+-----------------------+-----------------------+
-|                      |                       |                       |
-+----------------------+-----------------------+-----------------------+
+Description:
 
-Description:\
 Adversarial attacks are a type of attack in which an attacker
 deliberately alters input data to mislead the model.
 

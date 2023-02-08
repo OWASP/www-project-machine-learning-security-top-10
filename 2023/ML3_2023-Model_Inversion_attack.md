@@ -17,19 +17,6 @@ redirect_from:
 ---
 
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| ML Exploitability:   | Prevalence: XX,       | Technical: XX         |
-| XX                   | Detectability: XX     |                       |
-|                      |                       |                       |
-| Application /        |                       |                       |
-| Operations           |                       |                       |
-+----------------------+-----------------------+-----------------------+
-|                      |                       |                       |
-+----------------------+-----------------------+-----------------------+
-
 Description:
 
 Model inversion attacks occur when an attacker reverse-engineers the
