@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML4:2023:Membership_Inference_Attack
+title: ML04:2023:Membership_Inference_Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML4:2023
+tags: OWASP Top Ten 2023, Top Ten, ML04:2023
 exploitability:
 prevalence:
 detectability:

@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML8:2023:Model_Skewing
+title: ML08:2023:Model_Skewing
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML8:2023
+tags: OWASP Top Ten 2023, Top Ten, ML08:2023
 exploitability:
 prevalence:
 detectability:

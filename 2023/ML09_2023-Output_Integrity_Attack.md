@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML9:2023:Output_Integrity_Attack
+title: ML09:2023:Output_Integrity_Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML9:2023
+tags: OWASP Top Ten 2023, Top Ten, ML09:2023
 exploitability:
 prevalence:
 detectability:

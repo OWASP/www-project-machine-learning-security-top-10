@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML2:2023:Data_Poisoning_Attack
+title: ML02:2023:Data_Poisoning_Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML2:2023
+tags: OWASP Top Ten 2023, Top Ten, ML02:2023
 exploitability:
 prevalence:
 detectability:

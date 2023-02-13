@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML5:2023:Model_Stealing
+title: ML05:2023:Model_Stealing
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML5:2023
+tags: OWASP Top Ten 2023, Top Ten, ML05:2023
 exploitability:
 prevalence:
 detectability:

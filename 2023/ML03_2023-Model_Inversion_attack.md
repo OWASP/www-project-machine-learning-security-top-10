@@ -3,11 +3,11 @@
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML3:2023:Model_Inversion_Attack
+title: ML03:2023:Model_Inversion_Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML3:2023
+tags: OWASP Top Ten 2023, Top Ten, ML03:2023
 exploitability:
 prevalence:
 detectability:
