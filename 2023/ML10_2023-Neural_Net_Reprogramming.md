@@ -8,29 +8,91 @@ lang: en
 author:
 contributors:
 tags: OWASP Top Ten 2023, Top Ten, ML10:2023
-exploitability:
+exploitability: 4
 prevalence:
-detectability:
-technical:
+detectability: 3
+technical: 3
 redirect_from:
 
 ---
 
++----------------------+-----------------------+-----------------------+
+| Threat agents/Attack | Security Weakness     | Impact                |
+| vectors              |                       |                       |
++======================+=======================+=======================+
+| Exploitability: 4    | Detectability: 3      | Technical: 3          |
+| (Easy)               |                       |                       |
+|                      |                       |                       |
+| ML Application       |                       |                       |
+| Specific: 4          |                       |                       |
+|                      |                       |                       |
+| ML Operations        |                       |                       |
+| Specific: 4          |                       |                       |
++----------------------+-----------------------+-----------------------+
+| Malicious            | Insufficient access   | Model\'s predictions  |
+| individuals or       | controls to the       | can be manipulated to |
+| organizations with   | model\'s code and     | achieve desired       |
+| knowledge and        | parameters            | results.              |
+| resources to         |                       |                       |
+| manipulate deep      | Lack of proper secure | Confidential          |
+| learning models.     | coding practices      | information within    |
+|                      |                       | the model can be      |
+| Malicious insiders   | Inadequate monitoring | extracted.            |
+| within the           | and logging of        |                       |
+| organization         | model\'s activity     | Decisions based on    |
+| developing the deep  |                       | the model\'s          |
+| learning model       |                       | predictions can be    |
+|                      |                       | impacted negatively.  |
+|                      |                       |                       |
+|                      |                       | Reputation and        |
+|                      |                       | credibility of the    |
+|                      |                       | organization can be   |
+|                      |                       | affected              |
++----------------------+-----------------------+-----------------------+
 
-Description:
+It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.
+
+**Description:**
 
 Neural net reprogramming attacks occur when an attacker manipulates the
 model\'s parameters to cause it to behave in an undesirable way.
 
-Example Attack Scenario:
+**Example Attack Scenario:**
 
-For example, an attacker could modify the model\'s parameters to cause
-it to produce incorrect predictions.
+Consider a scenario where a bank is using a machine learning model to
+identify handwritten characters on cheques to automate their clearing
+process. The model has been trained on a large dataset of handwritten
+characters, and it has been designed to accurately identify the
+characters based on specific parameters such as size, shape, slant, and
+spacing.
 
-How to Prevent:
+An attacker who wants to exploit the Neural Net Reprogramming attack may
+manipulate the parameters of the model by altering the images in the
+training dataset or directly modifying the parameters in the model. This
+can result in the model being reprogrammed to identify characters
+differently. For example, the attacker could change the parameters so
+that the model identifies the character "5" as the character "2",
+leading to incorrect amounts being processed.
 
-To prevent neural net reprogramming attacks, it is important to secure
-the model and its parameters, and to monitor the model\'s behavior
-during prediction time.
+The attacker can exploit this vulnerability by introducing forged
+cheques into the clearing process, which the model will process as valid
+due to the manipulated parameters. This can result in significant
+financial loss to the bank.
 
-References:
+**How to Prevent:**
+
+Regularization: Adding regularization techniques like L1 or L2
+regularization to the loss function helps to prevent overfitting and
+reduce the chance of neural net reprogramming attacks.
+
+Robust Model Design: Designing models with robust architectures and
+activation functions can help reduce the chances of successful
+reprogramming attacks.
+
+Cryptographic Techniques: Cryptographic techniques can be used to secure
+the parameters and weights of the model, and prevent unauthorized access
+or manipulation of these parameters.
+
+**References:**

@@ -1,7 +1,7 @@
 ---
 
 document: OWASP Machine Learning Security Top Ten 2023
-year: 2017
+year: 2023
 order: 5
 title: 2023 Top 10
 lang: en

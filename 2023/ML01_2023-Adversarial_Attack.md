@@ -8,27 +8,91 @@ lang: en
 author:
 contributors:
 tags: OWASP Top Ten 2023, Top Ten, ML01:2023
-exploitability:
+exploitability: 5
 prevalence:
-detectability:
-technical:
+detectability: 3
+technical: 5
 redirect_from:
 
 ---
 
-Description:
+RISK Chart for Scenario One:
 
++----------------------+-----------------------+-----------------------+
+| Threat agents/Attack | Security Weakness     | Impact                |
+| vectors              |                       |                       |
++======================+=======================+=======================+
+| Exploitability: 5    | Detectability: 3      | Technical: 5          |
+| (Easy to exploit)    |                       |                       |
+|                      | (The adversarial      | (The attack requires  |
+| ML Application       | image may not be      | technical knowledge   |
+| Specific: 4          | noticeable to the     | of deep learning and  |
+|                      | naked eye, making it  | image processing      |
+| ML Operations        | difficult to detect   | techniques)           |
+| Specific: 3          | the attack)           |                       |
++----------------------+-----------------------+-----------------------+
+| Threat Agent:        | Vulnerability in the  | Misclassification of  |
+| Attacker with        | deep learning         | the image, leading to |
+| knowledge of deep    | model\'s ability to   | security bypass or    |
+| learning and image   | classify images       | harm to the system    |
+| processing           | accurately            |                       |
+| techniques           |                       |                       |
+|                      |                       |                       |
+| Attack Vector:       |                       |                       |
+| Deliberately crafted |                       |                       |
+| adversarial image    |                       |                       |
+| that is similar to a |                       |                       |
+| legitimate image     |                       |                       |
++----------------------+-----------------------+-----------------------+
+
+It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.
+
+**Description**:
 Adversarial attacks are a type of attack in which an attacker
 deliberately alters input data to mislead the model.
 
-Example Attack Scenario:
+**Example Attack Scenario:**
 
-For example, an attacker could add small perturbations to an image to
-cause the model to misclassify it.
+Scenario 1: Image classification
 
-How to Prevent:
+A deep learning model is trained to classify images into different
+categories, such as dogs and cats. An attacker creates an adversarial
+image that is very similar to a legitimate image of a cat, but with
+small, carefully crafted perturbations that cause the model to
+misclassify it as a dog. When the model is deployed in a real-world
+setting, the attacker can use the adversarial image to bypass security
+measures or cause harm to the system.
 
-Defending against adversarial attacks can be challenging, but techniques
-such as adversarial training and using robust models can be effective
+Scenario 2: Network intrusion detection
 
-References:
+A deep learning model is trained to detect intrusions in a network. An
+attacker creates adversarial network traffic by carefully crafting
+packets in such a way that they will evade the model\'s intrusion
+detection system. The attacker can manipulate the features of the
+network traffic, such as the source IP address, destination IP address,
+or payload, in such a way that they are not detected by the intrusion
+detection system. For example, the attacker may hide their source IP
+address behind a proxy server or encrypt the payload of their network
+traffic. This type of attack can have serious consequences, as it can
+lead to data theft, system compromise, or other forms of damage.
+
+**How to Prevent:**
+
+1. Adversarial training: One approach to defending against adversarial
+    attacks is to train the model on adversarial examples. This can help
+    the model become more robust to attacks and reduce its
+    susceptibility to being misled.
+
+2. Robust models: Another approach is to use models that are designed
+    to be robust against adversarial attacks, such as adversarial
+    training or models that incorporate defense mechanisms.
+
+3. Input validation: Input validation is another important defense
+    mechanism that can be used to detect and prevent adversarial
+    attacks. This involves checking the input data for anomalies, such
+    as unexpected values or patterns, and rejecting inputs that are
+    likely to be malicious.
+
+**References:**

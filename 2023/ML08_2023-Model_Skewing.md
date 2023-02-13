@@ -8,30 +8,110 @@ lang: en
 author:
 contributors:
 tags: OWASP Top Ten 2023, Top Ten, ML08:2023
-exploitability:
+exploitability: 5
 prevalence:
-detectability:
-technical:
+detectability: 2
+technical: 4
 redirect_from:
 
 ---
 
++----------------------+-----------------------+-----------------------+
+| Threat agents/Attack | Security Weakness     | Impact                |
+| vectors              |                       |                       |
++======================+=======================+=======================+
+| Exploitability: 5    | Detectability: 2      | Technical: 4          |
+| (Easy)               |                       |                       |
+|                      | the model skewing     | manipulation of the   |
+| ML Application       | might not be easily   | training data is a    |
+| Specific: 4          | noticeable during the | technically complex   |
+|                      | testing phase         | task                  |
+| the attacker has a   |                       |                       |
+| clear understanding  |                       |                       |
+| of the machine       |                       |                       |
+| learning project and |                       |                       |
+| its vulnerabilities. |                       |                       |
+|                      |                       |                       |
+| ML Operations        |                       |                       |
+| Specific: 3          |                       |                       |
+|                      |                       |                       |
+| manipulation of the  |                       |                       |
+| training data        |                       |                       |
+| requires knowledge   |                       |                       |
+| of the machine       |                       |                       |
+| learning process     |                       |                       |
++----------------------+-----------------------+-----------------------+
+| The attackers in a   | The security weakness | The impact of a Model |
+| Model Skewing attack | in a Model Skewing    | Skewing attack can be |
+| could be individuals | attack is the         | significant and can   |
+| with malicious       | inability of the      | lead to incorrect     |
+| intent, or a         | model to accurately   | decisions being made  |
+| third-party with a   | reflect the           | based on the output   |
+| vested interest in   | underlying            | of the model. This    |
+| manipulating the     | distribution of the   | can result in         |
+| outcomes of a model. | training data. This   | financial loss,       |
+|                      | can occur due to      | damage to reputation, |
+|                      | factors such as data  | and even harm to      |
+|                      | bias, incorrect       | individuals if the    |
+|                      | sampling of the data, | model is being used   |
+|                      | or manipulation of    | for critical          |
+|                      | the data or training  | applications such as  |
+|                      | process by an         | medical diagnosis or  |
+|                      | attacker.             | criminal justice.     |
++----------------------+-----------------------+-----------------------+
 
-Description:
+It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.
+
+**Description:**
 
 Model skewing attacks occur when an attacker manipulates the
 distribution of the training data to cause the model to behave in an
 undesirable way.
 
-Example Attack Scenario:
+**Example Attack Scenario:**
 
-For example, an attacker could oversample certain classes in the
-training data to cause the model to be biased towards them.
+A financial institution is using a machine learning model to predict the
+creditworthiness of loan applicants, and the model's predictions are
+integrated into their loan approval process. An attacker wants to
+increase their chances of getting a loan approved, so they manipulate
+the feedback loop in the MLOps system. The attacker provides fake
+feedback data to the system, indicating that high-risk applicants have
+been approved for loans in the past, and this feedback is used to update
+the model's training data. As a result, the model's predictions are
+skewed towards low-risk applicants, and the attacker's chances of
+getting a loan approved are significantly increased.
 
-How to Prevent:
+This type of attack can compromise the accuracy and fairness of the
+model, leading to unintended consequences and potential harm to the
+financial institution and its customers.
 
-To prevent model skewing attacks, it is important to use diverse and
-balanced training data, and to monitor the model\'s behavior during
-training.
+**How to Prevent:**
 
-References:
+Implement robust access controls: Ensure that only authorized personnel
+have access to the MLOps system and its feedback loops, and that all
+activities are logged and audited.
+
+Verify the authenticity of feedback data: Use techniques such as digital
+signatures and checksums to verify that the feedback data received by
+the system is genuine, and reject any data that does not match the
+expected format.
+
+Use data validation and cleaning techniques: Clean and validate the
+feedback data before using it to update the training data, to minimize
+the risk of incorrect or malicious data being used.
+
+Implement anomaly detection: Use techniques such as statistical and
+machine learning-based methods to detect and alert on anomalies in the
+feedback data, which could indicate an attack.
+
+Regularly monitor the model's performance: Continuously monitor the
+performance of the model, and compare its predictions with actual
+outcomes to detect any deviation or skewing.
+
+Continuously train the model: Regularly retrain the model using updated
+and verified training data, to ensure that it continues to reflect the
+latest information and trends.
+
+**References:**

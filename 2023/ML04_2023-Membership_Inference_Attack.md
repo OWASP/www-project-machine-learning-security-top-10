@@ -16,23 +16,91 @@ redirect_from:
 
 ---
 
++----------------------+-----------------------+-----------------------+
+| Threat agents/Attack | Security Weakness     | Impact                |
+| vectors              |                       |                       |
++======================+=======================+=======================+
+| Exploitability: 4    | Detectability: 3      | Technical: 4          |
+| (Effort required to  |                       |                       |
+| exploit this         | (Detection of this    | (Moderate technical   |
+| weakness is          | attack is moderately  | skill required)       |
+| moderate)            | challenging)          |                       |
+|                      |                       |                       |
+| ML Application       |                       |                       |
+| Specific: 5          |                       |                       |
+|                      |                       |                       |
+| ML Operations        |                       |                       |
+| Specific: 3          |                       |                       |
++----------------------+-----------------------+-----------------------+
+| Hackers or malicious | Lack of proper data   | Unreliable or         |
+| actors who have      | access controls       | incorrect model       |
+| access to the data   |                       | predictions           |
+| and the model        | Lack of proper data   |                       |
+|                      | validation and        | Loss of               |
+| Insiders who have    | sanitization          | confidentiality and   |
+| malicious intent or  | techniques            | privacy of sensitive  |
+| are bribed to        |                       | data                  |
+| interfere with the   | Lack of proper data   |                       |
+| data                 | encryption            | Legal and regulatory  |
+|                      |                       | compliance violations |
+| Unsecured data       | Lack of proper data   |                       |
+| transmission         | backup and recovery   | Reputational damage   |
+| channels that allow  | techniques            |                       |
+| unauthorized access  |                       |                       |
+| to the data          |                       |                       |
++----------------------+-----------------------+-----------------------+
 
-Description:
+It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.
+
+**Description:**
 
 Membership interference attacks occur when an attacker manipulates the
-model\'s training data in order to cause it to behave in a way that
+model's training data in order to cause it to behave in a way that
 exposes sensitive information.
 
-Example Attack Scenario:
+**Example Attack Scenario:**
 
-For example, an attacker could manipulate the training data to cause the
-model to produce different predictions for individuals who belong to
-different groups.
+Scenario 1: Inferencing financial data from a machine learning model
 
-How to Prevent:
+A malicious attacker wants to gain access to sensitive financial
+information of individuals. They do this by training a machine learning
+model on a dataset of financial records and using it to query whether or
+not a particular individual's record was included in the training data.
+The attacker can then use this information to infer the financial
+history and sensitive information of individuals.
 
-To prevent membership interference attacks, it is important to use
-secure training algorithms and to monitor the model\'s behavior during
-training.
+The attacker executed this attack by training a machine learning model
+on a dataset of financial records obtained from a financial
+organization. They then used this model to query whether or not a
+particular individual\'s record was included in the training data,
+allowing them to infer sensitive financial information.
 
-References:
+**How to Prevent:**
+
+Model training on randomized or shuffled data: Training machine learning
+models on randomized or shuffled data can make it more difficult for an
+attacker to determine whether a particular example was included in the
+training dataset.
+
+Model Obfuscation: Obfuscating the model's predictions by adding random
+noise or using differential privacy techniques can help prevent
+membership inference attacks by making it harder for an attacker to
+determine the model's training data.
+
+Regularization: Regularization techniques such as L1 or L2
+regularization can help prevent overfitting of the model to the training
+data, which can reduce the model's ability to accurately determine
+whether a particular example was included in the training dataset.
+
+Reducing the training data: Reducing the size of the training dataset or
+removing redundant or highly correlated features can help reduce the
+information an attacker can gain from a membership inference attack.
+
+Testing and monitoring: Regularly testing and monitoring the model's
+behavior for anomalies can help detect and prevent membership inference
+attacks by detecting when an attacker is attempting to gain access to
+sensitive information.
+
+**References:**
