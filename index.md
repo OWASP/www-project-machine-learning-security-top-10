@@ -11,6 +11,11 @@ pitch:
 
 ---
 
+## Communication channels
+
+- [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10 
+- [Github Discussions]()
+- [Monthly Meeting](?q=label%3Ameeting+)
 
 
 
