@@ -16,29 +16,7 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 5    | Detectability: 2      | Technical: 4          |
-| (Effort required to  |                       |                       |
-| exploit this         | (Detection of this    | (Moderate technical   |
-| weakness is          | attack is not much    | skill required)       |
-| moderate)            | challenging)          |                       |
-|                      |                       |                       |
-| ML Application       |                       |                       |
-| Specific: 5          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Malicious attacker   | Relying on untrusted  | Compromise of the     |
-|                      | third-party code      | machine learning      |
-| Modifying code of    |                       | project and potential |
-| open-source package  |                       | harm to the           |
-| used by the machine  |                       | organization          |
-| learning project     |                       |                       |
-+----------------------+-----------------------+-----------------------+
+![ML06-chart](/assets/images/ML06-chart.png)
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
