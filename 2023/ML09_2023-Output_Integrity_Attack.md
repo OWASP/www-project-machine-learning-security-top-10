@@ -16,38 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 5    | Detectability: 3      | Technical: 3          |
-| (Easy)               |                       |                       |
-|                      |                       |                       |
-| ML Application       |                       |                       |
-| Specific: 4          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 4          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Malicious attackers  | Lack of proper        | Loss of confidence in |
-| or insiders who have | authentication and    | the model\'s          |
-| access to the        | authorization         | predictions and       |
-| model\'s inputs and  | measures to ensure    | results               |
-| outputs              | the integrity of the  |                       |
-|                      | inputs and outputs    | Financial loss or     |
-| Third-party entities |                       | damage to reputation  |
-| who have access to   | Inadequate validation | if the model\'s       |
-| the inputs and       | and verification of   | predictions are used  |
-| outputs and may      | inputs and outputs to | to make important     |
-| tamper with them to  | prevent tampering     | decisions             |
-| achieve a certain    |                       |                       |
-| outcome              | Insufficient          | Security risks if the |
-|                      | monitoring and        | model is used in a    |
-|                      | logging of inputs and | critical application  |
-|                      | outputs to detect     | such as financial     |
-|                      | tampering             | fraud detection or    |
-|                      |                       | cybersecurity         |
-+----------------------+-----------------------+-----------------------+
+![ML09-chart](/assets/images/ML09-chart.png)
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
