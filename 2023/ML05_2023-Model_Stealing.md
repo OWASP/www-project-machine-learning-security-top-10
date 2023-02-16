@@ -16,34 +16,7 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 4    | Detectability: 3      | Technical: 4          |
-| (Effort required to  |                       |                       |
-| exploit this         | (Detection of this    | (Moderate technical   |
-| weakness is          | attack is moderately  | skill required)       |
-| moderate)            | challenging)          |                       |
-|                      |                       |                       |
-| ML Application       |                       |                       |
-| Specific: 4          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Agent/Attack Vector: | Unsecured model       | The impact of a model |
-| This refers to the   | deployment: The       | theft could be both   |
-| entity that carries  | unsecured deployment  | on the                |
-| out the attack, in   | of the model makes it | confidentiality of    |
-| this case, it is an  | easier for the        | the data used to      |
-| attacker who wants   | attacker to access    | train the model and   |
-| to steal the machine | and steal the model.  | the reputation of the |
-| learning model.      |                       | organization that     |
-|                      |                       | developed the model.\ |
-|                      |                       | Confidentiality,      |
-|                      |                       | Reputation            |
-+----------------------+-----------------------+-----------------------+
+![ML05-chart](/assets/images/ML05-chart.png)
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
