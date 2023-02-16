@@ -22,7 +22,6 @@ pitch:
 
 * Provide feedback and report potential bugs
 * Suggest enhancements to the project
-* Perform tests and increase test coverage
 * Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 
