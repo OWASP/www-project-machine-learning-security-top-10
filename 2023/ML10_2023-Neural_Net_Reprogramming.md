@@ -16,39 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 4    | Detectability: 3      | Technical: 3          |
-| (Easy)               |                       |                       |
-|                      |                       |                       |
-| ML Application       |                       |                       |
-| Specific: 4          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 4          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Malicious            | Insufficient access   | Model\'s predictions  |
-| individuals or       | controls to the       | can be manipulated to |
-| organizations with   | model\'s code and     | achieve desired       |
-| knowledge and        | parameters            | results.              |
-| resources to         |                       |                       |
-| manipulate deep      | Lack of proper secure | Confidential          |
-| learning models.     | coding practices      | information within    |
-|                      |                       | the model can be      |
-| Malicious insiders   | Inadequate monitoring | extracted.            |
-| within the           | and logging of        |                       |
-| organization         | model\'s activity     | Decisions based on    |
-| developing the deep  |                       | the model\'s          |
-| learning model       |                       | predictions can be    |
-|                      |                       | impacted negatively.  |
-|                      |                       |                       |
-|                      |                       | Reputation and        |
-|                      |                       | credibility of the    |
-|                      |                       | organization can be   |
-|                      |                       | affected              |
-+----------------------+-----------------------+-----------------------+
+![ML10-chart](/assets/images/ML10-chart.png)
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
