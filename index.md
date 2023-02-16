@@ -11,11 +11,19 @@ pitch:
 
 ---
 
-## Communication channels
+## Communication
 
 - [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10 
-- [Github Discussions]()
-- [Monthly Meeting](?q=label%3Ameeting+)
+- [Github Discussions](https://github.com/owasp/www-project-machine-learning-security-top-10)
+- [Monthly Meeting](https://github.com/owasp/www-project-machine-learning-security-top-10?q=label%3Ameeting+)
+- [Planning](https://github.com/owasp/www-project-machine-learning-security-top-10/projects?type=beta)
+
+## Contributions
+
+* Provide feedback and report potential bugs
+* Suggest enhancements to the project
+* Perform tests and increase test coverage
+* Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 
 
