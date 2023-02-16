@@ -16,31 +16,7 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 3    | Detectability: 2      | Technical: 4          |
-| (Medium to exploit)  |                       |                       |
-|                      | (Limited)             |                       |
-| ML Application       |                       |                       |
-| Specific: 4          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Threat Agent:        | Lack of data          | The model will make   |
-| Attacker who has     | validation and        | incorrect predictions |
-| access to the        | insufficient          | based on the poisoned |
-| training data used   | monitoring of the     | data, leading to      |
-| for the model.       | training data.        | false decisions and   |
-|                      |                       | potentially serious   |
-| Attack Vector: The   |                       | consequences.         |
-| attacker injects     |                       |                       |
-| malicious data into  |                       |                       |
-| the training data    |                       |                       |
-| set.                 |                       |                       |
-+----------------------+-----------------------+-----------------------+
+![ML02-chart](/assets/images/ML02-chart.png)
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
