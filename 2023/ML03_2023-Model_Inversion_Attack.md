@@ -16,30 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 4    | Detectability: 2      | Technical: 4          |
-| (Medium to exploit)  |                       |                       |
-|                      | (Limited)             | Moderate technical    |
-| ML Application       |                       | knowledge required to |
-| Specific: 5          |                       | carry out the attack) |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Threat Agents:       | Model\'s output can   | Confidential          |
-| Attackers who have   | be used to infer      | information about the |
-| access to the model  | sensitive information | input data can be     |
-| and input data       | about the input data  | compromised           |
-|                      |                       |                       |
-| Attack Vectors:      |                       |                       |
-| Submitting an image  |                       |                       |
-| to the model and     |                       |                       |
-| analyzing the        |                       |                       |
-| model\'s response    |                       |                       |
-+----------------------+-----------------------+-----------------------+
+![ML03-chart](/assets/images/ML03-chart.png)
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
