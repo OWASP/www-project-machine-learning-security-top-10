@@ -16,49 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 5    | Detectability: 2      | Technical: 4          |
-| (Easy)               |                       |                       |
-|                      | the model skewing     | manipulation of the   |
-| ML Application       | might not be easily   | training data is a    |
-| Specific: 4          | noticeable during the | technically complex   |
-|                      | testing phase         | task                  |
-| the attacker has a   |                       |                       |
-| clear understanding  |                       |                       |
-| of the machine       |                       |                       |
-| learning project and |                       |                       |
-| its vulnerabilities. |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-|                      |                       |                       |
-| manipulation of the  |                       |                       |
-| training data        |                       |                       |
-| requires knowledge   |                       |                       |
-| of the machine       |                       |                       |
-| learning process     |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| The attackers in a   | The security weakness | The impact of a Model |
-| Model Skewing attack | in a Model Skewing    | Skewing attack can be |
-| could be individuals | attack is the         | significant and can   |
-| with malicious       | inability of the      | lead to incorrect     |
-| intent, or a         | model to accurately   | decisions being made  |
-| third-party with a   | reflect the           | based on the output   |
-| vested interest in   | underlying            | of the model. This    |
-| manipulating the     | distribution of the   | can result in         |
-| outcomes of a model. | training data. This   | financial loss,       |
-|                      | can occur due to      | damage to reputation, |
-|                      | factors such as data  | and even harm to      |
-|                      | bias, incorrect       | individuals if the    |
-|                      | sampling of the data, | model is being used   |
-|                      | or manipulation of    | for critical          |
-|                      | the data or training  | applications such as  |
-|                      | process by an         | medical diagnosis or  |
-|                      | attacker.             | criminal justice.     |
-+----------------------+-----------------------+-----------------------+
+![ML08-chart](/assets/images/ML08-chart.png)
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
