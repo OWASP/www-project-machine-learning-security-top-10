@@ -18,38 +18,7 @@ redirect_from:
 
 RISK Chart for Scenario One:
 
-|Threat agents/Attack Vectors            |Security Weakness      |Impact.            |
-|----------------------------------------|-----------------------|-------------------|
-|Exploitability: 5 <br> (Easy to exploit)|Detectability: 3 <br>  |Technical: 5 <br>  |
-
-<br>
-
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 5    | Detectability: 3      | Technical: 5          |
-| (Easy to exploit)    |                       |                       |
-|                      | (The adversarial      | (The attack requires  |
-| ML Application       | image may not be      | technical knowledge   |
-| Specific: 4          | noticeable to the     | of deep learning and  |
-|                      | naked eye, making it  | image processing      |
-| ML Operations        | difficult to detect   | techniques)           |
-| Specific: 3          | the attack)           |                       |
-+----------------------+-----------------------+-----------------------+
-| Threat Agent:        | Vulnerability in the  | Misclassification of  |
-| Attacker with        | deep learning         | the image, leading to |
-| knowledge of deep    | model\'s ability to   | security bypass or    |
-| learning and image   | classify images       | harm to the system    |
-| processing           | accurately            |                       |
-| techniques           |                       |                       |
-|                      |                       |                       |
-| Attack Vector:       |                       |                       |
-| Deliberately crafted |                       |                       |
-| adversarial image    |                       |                       |
-| that is similar to a |                       |                       |
-| legitimate image     |                       |                       |
-+----------------------+-----------------------+-----------------------+
+![ML01-chart.png]
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
