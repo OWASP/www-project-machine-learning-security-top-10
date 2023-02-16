@@ -16,39 +16,7 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 4    | Detectability: 3      | Technical: 4          |
-| (Effort required to  |                       |                       |
-| exploit this         | (Detection of this    | (Moderate technical   |
-| weakness is          | attack is moderately  | skill required)       |
-| moderate)            | challenging)          |                       |
-|                      |                       |                       |
-| ML Application       |                       |                       |
-| Specific: 5          |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Hackers or malicious | Lack of proper data   | Unreliable or         |
-| actors who have      | access controls       | incorrect model       |
-| access to the data   |                       | predictions           |
-| and the model        | Lack of proper data   |                       |
-|                      | validation and        | Loss of               |
-| Insiders who have    | sanitization          | confidentiality and   |
-| malicious intent or  | techniques            | privacy of sensitive  |
-| are bribed to        |                       | data                  |
-| interfere with the   | Lack of proper data   |                       |
-| data                 | encryption            | Legal and regulatory  |
-|                      |                       | compliance violations |
-| Unsecured data       | Lack of proper data   |                       |
-| transmission         | backup and recovery   | Reputational damage   |
-| channels that allow  | techniques            |                       |
-| unauthorized access  |                       |                       |
-| to the data          |                       |                       |
-+----------------------+-----------------------+-----------------------+
+![ML04-chart](/assets/images/ML04-chart.png)
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
