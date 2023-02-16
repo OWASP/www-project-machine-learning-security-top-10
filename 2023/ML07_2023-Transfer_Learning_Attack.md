@@ -16,49 +16,8 @@ redirect_from:
 
 ---
 
-+----------------------+-----------------------+-----------------------+
-| Threat agents/Attack | Security Weakness     | Impact                |
-| vectors              |                       |                       |
-+======================+=======================+=======================+
-| Exploitability: 4    | Detectability: 2      | Technical: 4          |
-| (Easy)               |                       |                       |
-|                      | The attack may be     | The attack requires a |
-| ML Application       | difficult to detect   | high level of         |
-| Specific: 4          | as the results        | technical expertise   |
-|                      | produced by the       | in machine learning   |
-| The attack           | compromised model may | and a willingness to  |
-| specifically targets | appear to be correct  | compromise the        |
-| the machine learning | and consistent with   | integrity of the      |
-| application and can  | expectations          | training dataset or   |
-| cause significant    |                       | pre-trained models.   |
-| harm to the model    |                       |                       |
-| and the organization |                       |                       |
-|                      |                       |                       |
-| ML Operations        |                       |                       |
-| Specific: 3          |                       |                       |
-|                      |                       |                       |
-| The attack requires  |                       |                       |
-| knowledge of machine |                       |                       |
-| learning operations  |                       |                       |
-| but can be executed  |                       |                       |
-| with relative ease   |                       |                       |
-+----------------------+-----------------------+-----------------------+
-| Attacker with        | Lack of proper data   | Misleading or         |
-| knowledge of machine | protection measures   | incorrect results     |
-| learning and access  | for the training      | from the machine      |
-| to the training      | dataset and           | learning model        |
-| dataset or           | pre-trained models    |                       |
-| pre-trained models   |                       | Confidentiality       |
-|                      | Insecure storage and  | breach of sensitive   |
-|                      | sharing of            | information in the    |
-|                      | pre-trained models    | training dataset      |
-|                      |                       |                       |
-|                      | Lack of proper data   | Reputational harm to  |
-|                      | protection measures   | the organization      |
-|                      | for the pre-trained   |                       |
-|                      | models and training   | Legal or regulatory   |
-|                      | dataset               | compliance issues     |
-+----------------------+-----------------------+-----------------------+
+![ML07-chart](/assets/images/ML07-chart.png)
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
