@@ -26,7 +26,7 @@ pitch:
 
 
 
-## Top 10 Machine Learning Security Security Risks
+## Top 10 Machine Learning Security Risks
 
 - [**ML01:2023 Adversarial Attack**](/2023/ML01_2023-Adversarial_Attack.md)
 - [**ML02:2023 Data Poisoning Attack**](/2023/ML02_2023-Data_Poisoning_Attack.md)
