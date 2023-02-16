@@ -18,7 +18,7 @@ redirect_from:
 
 RISK Chart for Scenario One:
 
-![ML01-chart.png]
+![/assets/images/ML01-chart.png]
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
