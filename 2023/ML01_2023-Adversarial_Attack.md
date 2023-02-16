@@ -18,6 +18,12 @@ redirect_from:
 
 RISK Chart for Scenario One:
 
+|Threat agents/Attack Vectors            |Security Weakness      |Impact.            |
+|----------------------------------------|-----------------------|-------------------|
+|Exploitability: 5 <br> (Easy to exploit)|Detectability: 3 <br>  |Technical: 5 <br>  |
+
+<br>
+
 +----------------------+-----------------------+-----------------------+
 | Threat agents/Attack | Security Weakness     | Impact                |
 | vectors              |                       |                       |
