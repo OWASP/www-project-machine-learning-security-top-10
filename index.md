@@ -1,5 +1,6 @@
 ---
 
+layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
 tags: mltop10
 type: documentation
