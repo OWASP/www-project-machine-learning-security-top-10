@@ -18,7 +18,11 @@ redirect_from:
 
 RISK Chart for Scenario One:
 
-![ML01-chart](/assets/images/ML01-chart.png)
+|                                                                              Threat agents/Attack vectors                                                                              |                                                       Security Weakness                                                      |                                                   Impact                                                   |   |   |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|---|---|
+|                                             Exploitability: 5 (Easy to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3                                            | Detectability: 3<br>(The adversarial image may not be noticeable to the naked eye, making it difficult to detect the attack) | Technical: 5<br>(The attack requires technical knowledge of deep learning and image processing techniques) |   |   |
+| Threat Agent: Attacker with knowledge of deep learning and image processing techniques<br>Attack Vector: Deliberately crafted adversarial image that is similar to a legitimate image  | Vulnerability in the deep learning model's ability to classify images accurately                                             | Misclassification of the image, leading to security bypass or harm to the system                           |   |   |
+|                                                                                                                                                                                        |                                                                                                                              |                                                                                                            |   |   |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
