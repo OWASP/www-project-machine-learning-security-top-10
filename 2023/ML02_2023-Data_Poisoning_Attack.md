@@ -16,7 +16,11 @@ redirect_from:
 
 ---
 
-![ML02-chart](/assets/images/ML02-chart.png)
+|                                                                   Threat agents/Attack vectors                                                                   |                             Security Weakness                             |                                                                 Impact                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
+|                                 Exploitability: 3 (Medium to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3                                |                       Detectability: 2<br>(Limited)                       |                                                            Technical: 4<br>                                                            |
+| Threat Agent: Attacker who has access to the training data used for the model.<br>Attack Vector: The attacker injects malicious data into the training data set. | Lack of data validation and insufficient monitoring of the training data. | The model will make incorrect predictions based on the poisoned data, leading to false decisions and potentially serious consequences. |
+
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
