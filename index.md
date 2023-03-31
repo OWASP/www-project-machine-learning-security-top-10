@@ -15,7 +15,7 @@ pitch:
 
 - [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10
 - [Github Discussions](https://github.com/OWASP/www-project-machine-learning-security-top-10/discussions)
-- [Meeting Notes](https://github.com/owasp/-www-project-machine-learning-security-top-10?q=label%3Ameeting)
+- [Meeting Notes](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues?q=label%3Ameeting)
 
 ## Contributions
 
