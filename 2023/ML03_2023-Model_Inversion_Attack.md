@@ -16,7 +16,10 @@ redirect_from:
 
 ---
 
-![ML03-chart](/assets/images/ML03-chart.png)
+|                                                                 Threat agents/Attack vectors                                                                |                                Security Weakness                               |                                        Impact                                       |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
+|                              Exploitability: 4 (Medium to exploit)<br>ML Application Specific: 5 <br>ML Operations Specific: 3                              |                          Detectability: 2<br>(Limited)                         | Technical: 4<br>Moderate technical knowledge required to carry out the attack)<br>  |
+| Threat Agents: Attackers who have access to the model and input data<br>Attack Vectors: Submitting an image to the model and analyzing the model's response | Model's output can be used to infer sensitive information about the input data | Confidential information about the input data can be compromised                    |
 
 
 It is important to note that this chart is only a sample based on
