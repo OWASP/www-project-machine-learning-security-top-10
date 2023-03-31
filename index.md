@@ -14,15 +14,15 @@ pitch:
 ## Communication
 
 - [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10
-- [Github Discussions](https://github.com/shsingh/owasp-www-project-machine-learning-security-top-10)
-- [Monthly Meeting](https://github.com/shsingh/owasp-www-project-machine-learning-security-top-10?q=label%3Ameeting+)
-- [Planning](https://github.com/shsingh/owasp-www-project-machine-learning-security-top-10/projects?type=beta)
+- [Github Discussions](https://github.com//owas/-www-project-machine-learning-security-top-10)
+- [Meeting Notes](https://github.com//owas/-www-project-machine-learning-security-top-10?q=label%3Ameeting+)
+- [Planning](https://github.com/owasp/www-project-machine-learning-security-top-10/projects?type=beta)
 
 ## Contributions
 
 - Provide feedback and report potential bugs
 - Suggest enhancements to the project
-- Fix a [Bug](https://github.com/shsingh/owasp-www-project-machine-learning-security-top-10?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/shsingh/owasp-www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
+- Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 ## Top 10 Machine Learning Security Risks
 
