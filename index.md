@@ -1,5 +1,4 @@
 ---
-
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
 tags: mltop10
@@ -7,8 +6,7 @@ type: documentation
 altfooter: true
 level: 4
 auto-migrated: 0
-pitch: 
-
+pitch:
 ---
 
 ## Communication
@@ -21,7 +19,7 @@ pitch:
 
 - Provide feedback and report potential bugs
 - Suggest enhancements to the project
-- Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
+- Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 ## Top 10 Machine Learning Security Risks
 
