@@ -1,4 +1,14 @@
 ---
+layout: col-sidebar
+title: OWASP Machine Learning Security Top Ten
+tags: mltop10
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+---
+---
 
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
