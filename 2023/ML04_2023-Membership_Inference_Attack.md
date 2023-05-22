@@ -1,15 +1,11 @@
 ---
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
-tags: mltop10
 type: documentation
 altfooter: true
 level: 4
 auto-migrated: 0
 pitch:
----
----
-
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
@@ -17,17 +13,16 @@ title: ML04:2023:Membership_Inference_Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML04:2023
+tags: OWASP Top Ten 2023, Top Ten, ML04:2023, mltop10
 exploitability:
 prevalence:
 detectability:
 technical:
 redirect_from:
-
 ---
 
-|                                                                                                         Threat agents/Attack vectors                                                                                                         |                                                                                     Security Weakness                                                                                     |                                                                                  Impact                                                                                 |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                         Threat agents/Attack vectors                                                                                                         |                                                                                     Security Weakness                                                                                     |                                                                                 Impact                                                                                  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                     Exploitability: 4 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 5 <br>ML Operations Specific: 3                                                     |                                                         Detectability: 3 <br>(Detection of this attack is moderately challenging)                                                         |                                                        Technical: 4 <br>(Moderate technical skill required)<br>                                                         |
 | Hackers or malicious actors who have access to the data and the model<br>Insiders who have malicious intent or are bribed to interfere with the data<br> <br>Unsecured data transmission channels that allow unauthorized access to the data | Lack of proper data access controls<br>Lack of proper data validation and sanitization techniques<br>Lack of proper data encryption<br>Lack of proper data backup and recovery techniques | Unreliable or incorrect model predictions<br>Loss of confidentiality and privacy of sensitive data<br>Legal and regulatory compliance violations<br>Reputational damage |
 

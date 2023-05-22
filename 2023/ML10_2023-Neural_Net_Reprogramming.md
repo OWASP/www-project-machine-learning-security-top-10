@@ -1,15 +1,11 @@
 ---
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
-tags: mltop10
 type: documentation
 altfooter: true
 level: 4
 auto-migrated: 0
 pitch:
----
----
-
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
@@ -17,20 +13,18 @@ title: ML10:2023:Neural_Net_Reprogramming
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML10:2023
+tags: OWASP Top Ten 2023, Top Ten, ML10:2023, mltop10
 exploitability: 4
 prevalence:
 detectability: 3
 technical: 3
 redirect_from:
-
 ---
 
-|                                                                               Threat agents/Attack vectors                                                                               |                                                                          Security Weakness                                                                         |                                                                                                                                     Impact                                                                                                                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                               Threat agents/Attack vectors                                                                               |                                                                         Security Weakness                                                                          |                                                                                                                                    Impact                                                                                                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                 Exploitability: 4 (Easy)<br>ML Application Specific: 4<br>ML Operations Specific: 4<br>                                                  |                                                                        Detectability: 3<br>                                                                        |                                                                                                                               Technical: 3<br>                                                                                                                                |
 | Malicious individuals or organizations with knowledge and resources to manipulate deep learning models.<br>Malicious insiders within the organization developing the deep learning model | Insufficient access controls to the model's code and parameters<br>Lack of proper secure coding practices<br>Inadequate monitoring and logging of model's activity | Model's predictions can be manipulated to achieve desired results.<br>Confidential information within the model can be extracted.<br>Decisions based on the model's predictions can be impacted negatively.<br>Reputation and credibility of the organization can be affected |
-
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the

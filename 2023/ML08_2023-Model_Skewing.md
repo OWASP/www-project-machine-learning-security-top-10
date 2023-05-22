@@ -1,15 +1,11 @@
 ---
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
-tags: mltop10
 type: documentation
 altfooter: true
 level: 4
 auto-migrated: 0
 pitch:
----
----
-
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
@@ -17,20 +13,18 @@ title: ML08:2023:Model_Skewing
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML08:2023
+tags: OWASP Top Ten 2023, Top Ten, ML08:2023, mltop10
 exploitability: 5
 prevalence:
 detectability: 2
 technical: 4
 redirect_from:
-
 ---
 
-|                                                                                                                          Threat agents/Attack vectors                                                                                                                          |                                                                                                                                            Security Weakness                                                                                                                                           |                                                                                                                                                               Impact                                                                                                                                                               |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Exploitability: 5 (Easy)<br>ML Application Specific: 4<br>the attacker has a clear understanding of the machine learning project and its vulnerabilities.<br>ML Operations Specific: 3<br>manipulation of the training data requires knowledge of the machine learning process |                                                                                                      Detectability: 2<br>the model skewing might not be easily noticeable during the testing phase                                                                                                     |                                                                                                                          Technical: 4 <br>manipulation of the training data is a technically complex task                                                                                                                          |
-| The attackers in a Model Skewing attack could be individuals with malicious intent, or a third-party with a vested interest in manipulating the outcomes of a model.                                                                                                           | The security weakness in a Model Skewing attack is the inability of the model to accurately reflect the underlying distribution of the training data. This can occur due to factors such as data bias, incorrect sampling of the data, or manipulation of the data or training process by an attacker. | The impact of a Model Skewing attack can be significant and can lead to incorrect decisions being made based on the output of the model. This can result in financial loss, damage to reputation, and even harm to individuals if the model is being used for critical applications such as medical diagnosis or criminal justice. |
-
+|                                                                                                                          Threat agents/Attack vectors                                                                                                                          |                                                                                                                                           Security Weakness                                                                                                                                            |                                                                                                                                                               Impact                                                                                                                                                               |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Exploitability: 5 (Easy)<br>ML Application Specific: 4<br>the attacker has a clear understanding of the machine learning project and its vulnerabilities.<br>ML Operations Specific: 3<br>manipulation of the training data requires knowledge of the machine learning process |                                                                                                     Detectability: 2<br>the model skewing might not be easily noticeable during the testing phase                                                                                                      |                                                                                                                          Technical: 4 <br>manipulation of the training data is a technically complex task                                                                                                                          |
+|                                                      The attackers in a Model Skewing attack could be individuals with malicious intent, or a third-party with a vested interest in manipulating the outcomes of a model.                                                      | The security weakness in a Model Skewing attack is the inability of the model to accurately reflect the underlying distribution of the training data. This can occur due to factors such as data bias, incorrect sampling of the data, or manipulation of the data or training process by an attacker. | The impact of a Model Skewing attack can be significant and can lead to incorrect decisions being made based on the output of the model. This can result in financial loss, damage to reputation, and even harm to individuals if the model is being used for critical applications such as medical diagnosis or criminal justice. |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the

@@ -1,15 +1,11 @@
 ---
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
-tags: mltop10
 type: documentation
 altfooter: true
 level: 4
 auto-migrated: 0
 pitch:
----
----
-
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
@@ -17,7 +13,7 @@ title: ML06:2023:Corrupted_Packages
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML06:2023
+tags: OWASP Top Ten 2023, Top Ten, ML06:2023, mltop10
 exploitability: 5
 prevalence:
 detectability: 2
@@ -26,10 +22,10 @@ redirect_from:
 
 ---
 
-|                                                     Threat agents/Attack vectors                                                     |                            Security Weakness                           |                                       Impact                                      |
-|:------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
+|                                                     Threat agents/Attack vectors                                                     |                           Security Weakness                            |                                      Impact                                       |
+| :----------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
 | Exploitability: 5 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 5 <br>ML Operations Specific: 3 | Detectability: 2<br>(Detection of this attack is not much challenging) |             Technical: 4 <br>(Moderate technical skill required)<br>              |
-| Malicious attacker<br>Modifying code of open-source package used by the machine learning project                                     | Relying on untrusted third-party code                                  | Compromise of the machine learning project and potential harm to the organization |
+|                   Malicious attacker<br>Modifying code of open-source package used by the machine learning project                   |                 Relying on untrusted third-party code                  | Compromise of the machine learning project and potential harm to the organization |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
