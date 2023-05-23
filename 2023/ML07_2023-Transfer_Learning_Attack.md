@@ -1,27 +1,29 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML07:2023:Transfer_Learning_Attack
+title: ML07:2023 Transfer Learning Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML07:2023
+tags: OWASP Top Ten 2023, Top Ten, ML07:2023, mltop10
 exploitability: 4
 prevalence:
 detectability: 2
 technical: 4
 redirect_from:
-
 ---
 
-|                                                                                                                                                   Threat agents/Attack vectors                                                                                                                                                   |                                                                                                             Security Weakness                                                                                                            |                                                                                                            Impact                                                                                                            |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                   Threat agents/Attack vectors                                                                                                                                                   |                                                                                                            Security Weakness                                                                                                             |                                                                                                            Impact                                                                                                            |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Exploitability: 4 (Easy)<br>ML Application Specific: 4<br>The attack specifically targets the machine learning application and can cause significant harm to the model and the organization <br>ML Operations Specific: 3<br>The attack requires knowledge of machine learning operations but can be executed with relative ease |                                   Detectability: 2<br>The attack may be difficult to detect as the results produced by the compromised model may appear to be correct and consistent with expectations                                   |                Technical: 4 <br>The attack requires a high level of technical expertise in machine learning and a willingness to compromise the integrity of the training dataset or pre-trained models.<br>                 |
-| Attacker with knowledge of machine learning and access to the training dataset or pre-trained models                                                                                                                                                                                                                             | Lack of proper data protection measures for the training dataset and pre-trained models<br>Insecure storage and sharing of pre-trained models<br>Lack of proper data protection measures for the pre-trained models and training dataset | Misleading or incorrect results from the machine learning model<br>Confidentiality breach of sensitive information in the training dataset<br>Reputational harm to the organization<br>Legal or regulatory compliance issues |
-
-
+|                                                                                                               Attacker with knowledge of machine learning and access to the training dataset or pre-trained models                                                                                                               | Lack of proper data protection measures for the training dataset and pre-trained models<br>Insecure storage and sharing of pre-trained models<br>Lack of proper data protection measures for the pre-trained models and training dataset | Misleading or incorrect results from the machine learning model<br>Confidentiality breach of sensitive information in the training dataset<br>Reputational harm to the organization<br>Legal or regulatory compliance issues |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the

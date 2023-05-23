@@ -1,26 +1,29 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML09:2023:Output_Integrity_Attack
+title: ML09:2023 Output Integrity Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML09:2023
+tags: OWASP Top Ten 2023, Top Ten, ML09:2023, mltop10
 exploitability: 5
 prevalence:
 detectability: 3
 technical: 3
 redirect_from:
-
 ---
 
-|                                                                                        Threat agents/Attack vectors                                                                                       |                                                                                                                                 Security Weakness                                                                                                                                |                                                                                                                                          Impact                                                                                                                                         |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                       Threat agents/Attack vectors                                                                                        |                                                                                                                                Security Weakness                                                                                                                                 |                                                                                                                                         Impact                                                                                                                                          |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                          Exploitability: 5 (Easy)<br>ML Application Specific: 4<br>ML Operations Specific: 4<br>                                                          |                                                                                                                               Detectability: 3<br>                                                                                                                               |                                                                                                                                    Technical: 3<br>                                                                                                                                     |
 | Malicious attackers or insiders who have access to the model's inputs and outputs<br>Third-party entities who have access to the inputs and outputs and may tamper with them to achieve a certain outcome | Lack of proper authentication and authorization measures to ensure the integrity of the inputs and outputs<br>Inadequate validation and verification of inputs and outputs to prevent tampering<br>Insufficient monitoring and logging of inputs and outputs to detect tampering | Loss of confidence in the model's predictions and results<br>Financial loss or damage to reputation if the model's predictions are used to make important decisions<br>Security risks if the model is used in a critical application such as financial fraud detection or cybersecurity |
-
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
@@ -65,4 +68,4 @@ Monitoring and auditing: Regular monitoring and auditing of the results
 and the interactions between the model and the interface can help detect
 any suspicious activities and respond accordingly.
 
-**[References]{.underline}**:
+**References:**

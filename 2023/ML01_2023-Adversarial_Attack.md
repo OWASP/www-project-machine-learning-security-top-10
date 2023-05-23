@@ -1,28 +1,31 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML01:2023:Adversarial_Attack
+title: ML01:2023 Adversarial Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML01:2023
+tags: OWASP Top Ten 2023, Top Ten, ML01:2023, mltop10
 exploitability: 5
 prevalence:
 detectability: 3
 technical: 5
 redirect_from:
-
 ---
 
 RISK Chart for Scenario One:
 
-|                                                                              Threat agents/Attack vectors                                                                              |                                                       Security Weakness                                                      |                                                   Impact                                                   |   |   |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|---|---|
-|                                             Exploitability: 5 (Easy to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3                                            | Detectability: 3<br>(The adversarial image may not be noticeable to the naked eye, making it difficult to detect the attack) | Technical: 5<br>(The attack requires technical knowledge of deep learning and image processing techniques) |   |   |
-| Threat Agent: Attacker with knowledge of deep learning and image processing techniques<br>Attack Vector: Deliberately crafted adversarial image that is similar to a legitimate image  | Vulnerability in the deep learning model's ability to classify images accurately                                             | Misclassification of the image, leading to security bypass or harm to the system                           |   |   |
-|                                                                                                                                                                                        |                                                                                                                              |                                                                                                            |   |   |
+| Threat agents/Attack vectors                                                                                                                                                       |                                                     Security Weakness                                                     |                                                 Impact                                                  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| Exploitability: 5 (Easy to exploit) ML Application Specific: 4 ML Operations Specific: 3                                                                                           | Detectability: 3 (The adversarial image may not be noticeable to the naked eye, making it difficult to detect the attack) | Technical: 5 (The attack requires technical knowledge of deep learning and image processing techniques) |
+| Threat Agent: Attacker with knowledge of deep learning and image processing techniques Attack Vector: Deliberately crafted adversarial image that is similar to a legitimate image |                     Vulnerability in the deep learning model's ability to classify images accurately                      |            Misclassification of the image, leading to security bypass or harm to the system             |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the
@@ -60,18 +63,18 @@ lead to data theft, system compromise, or other forms of damage.
 **How to Prevent:**
 
 1. Adversarial training: One approach to defending against adversarial
-    attacks is to train the model on adversarial examples. This can help
-    the model become more robust to attacks and reduce its
-    susceptibility to being misled.
+   attacks is to train the model on adversarial examples. This can help
+   the model become more robust to attacks and reduce its
+   susceptibility to being misled.
 
 2. Robust models: Another approach is to use models that are designed
-    to be robust against adversarial attacks, such as adversarial
-    training or models that incorporate defense mechanisms.
+   to be robust against adversarial attacks, such as adversarial
+   training or models that incorporate defense mechanisms.
 
 3. Input validation: Input validation is another important defense
-    mechanism that can be used to detect and prevent adversarial
-    attacks. This involves checking the input data for anomalies, such
-    as unexpected values or patterns, and rejecting inputs that are
-    likely to be malicious.
+   mechanism that can be used to detect and prevent adversarial
+   attacks. This involves checking the input data for anomalies, such
+   as unexpected values or patterns, and rejecting inputs that are
+   likely to be malicious.
 
 **References:**

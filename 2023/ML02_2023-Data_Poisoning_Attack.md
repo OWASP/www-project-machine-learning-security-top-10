@@ -1,26 +1,29 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML02:2023:Data_Poisoning_Attack
+title: ML02:2023 Data Poisoning Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML02:2023
+tags: OWASP Top Ten 2023, Top Ten, ML02:2023, mltop10
 exploitability: 3
 prevalence:
 detectability: 2
 technical: 4
 redirect_from:
-
 ---
 
 |                                                                   Threat agents/Attack vectors                                                                   |                             Security Weakness                             |                                                                 Impact                                                                 |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------:|
-|                                 Exploitability: 3 (Medium to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3                                |                       Detectability: 2<br>(Limited)                       |                                                            Technical: 4<br>                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
+|                                Exploitability: 3 (Medium to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3                                 |                       Detectability: 2<br>(Limited)                       |                                                            Technical: 4<br>                                                            |
 | Threat Agent: Attacker who has access to the training data used for the model.<br>Attack Vector: The attacker injects malicious data into the training data set. | Lack of data validation and insufficient monitoring of the training data. | The model will make incorrect predictions based on the poisoned data, leading to false decisions and potentially serious consequences. |
-
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the

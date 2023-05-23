@@ -1,26 +1,29 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML03:2023:Model_Inversion_Attack
+title: ML03:2023 Model Inversion Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML03:2023
+tags: OWASP Top Ten 2023, Top Ten, ML03:2023, mltop10
 exploitability: 4
 prevalence:
 detectability: 2
 technical: 4
 redirect_from:
-
 ---
 
-|                                                                 Threat agents/Attack vectors                                                                |                                Security Weakness                               |                                        Impact                                       |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
-|                              Exploitability: 4 (Medium to exploit)<br>ML Application Specific: 5 <br>ML Operations Specific: 3                              |                          Detectability: 2<br>(Limited)                         | Technical: 4<br>Moderate technical knowledge required to carry out the attack)<br>  |
-| Threat Agents: Attackers who have access to the model and input data<br>Attack Vectors: Submitting an image to the model and analyzing the model's response | Model's output can be used to infer sensitive information about the input data | Confidential information about the input data can be compromised                    |
-
+|                                                                Threat agents/Attack vectors                                                                 |                               Security Weakness                                |                                       Impact                                       |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+|                              Exploitability: 4 (Medium to exploit)<br>ML Application Specific: 5 <br>ML Operations Specific: 3                              |                         Detectability: 2<br>(Limited)                          | Technical: 4<br>Moderate technical knowledge required to carry out the attack)<br> |
+| Threat Agents: Attackers who have access to the model and input data<br>Attack Vectors: Submitting an image to the model and analyzing the model's response | Model's output can be used to infer sensitive information about the input data |          Confidential information about the input data can be compromised          |
 
 It is important to note that this chart is only a sample based on
 scenario below, and the actual risk assessment will depend on the

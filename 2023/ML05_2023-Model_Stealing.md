@@ -1,24 +1,28 @@
 ---
-
+layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML05:2023:Model_Stealing
+title: ML05:2023 Model Stealing
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML05:2023
+tags: OWASP Top Ten 2023, Top Ten, ML05:2023, mltop10
 exploitability: 4
 prevalence:
 detectability: 3
 technical: 4
 redirect_from:
-
 ---
 
 |                                                                Threat agents/Attack vectors                                                                |                                                         Security Weakness                                                         |                                                                                                Impact                                                                                                |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|             Exploitability: 4 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 4<br>ML Operations Specific: 3            |                             Detectability: 3 <br>(Detection of this attack is moderately challenging)                             |                                                                       Technical: 4 <br>(Moderate technical skill required)<br>                                                                       |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|            Exploitability: 4 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 4<br>ML Operations Specific: 3             |                             Detectability: 3 <br>(Detection of this attack is moderately challenging)                             |                                                                       Technical: 4 <br>(Moderate technical skill required)<br>                                                                       |
 | Agent/Attack Vector: This refers to the entity that carries out the attack, in this case, it is an attacker who wants to steal the machine learning model. | Unsecured model deployment: The unsecured deployment of the model makes it easier for the attacker to access and steal the model. | The impact of a model theft could be both on the confidentiality of the data used to train the model and the reputation of the organization that developed the model.<br>Confidentiality, Reputation |
 
 It is important to note that this chart is only a sample based on

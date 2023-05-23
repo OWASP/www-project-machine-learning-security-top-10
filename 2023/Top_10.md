@@ -1,5 +1,4 @@
 ---
-
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 5
@@ -8,9 +7,8 @@ lang: en
 layout: full-width-document
 author:
 contributors:
-tags: OWASP Machine Learning Security Top Ten 2023, Top Ten
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, mltop10
 redirect_from:
-
 ---
 
 [ML01:2023 Adversarial Attack](ML01_2023-Adversarial_Attack.md)  
@@ -22,4 +20,4 @@ redirect_from:
 [ML07:2023 Transfer Learning Attack](ML07_2023-Transfer_Learning_Attack.md)  
 [ML08:2023 Model Skewing](ML08_2023-Model_Skewing.md)  
 [ML09:2023 Output Integrity Attack](ML09_2023-Output_Integrity_Attack.md)  
-[ML10:2023 Neural Net Reprogramming](ML10_2023-Neural_Net_Reprogramming.md)  
+[ML10:2023 Neural Net Reprogramming](ML10_2023-Neural_Net_Reprogramming.md)
