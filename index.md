@@ -4,7 +4,7 @@ title: OWASP Machine Learning Security Top Ten
 tags: mltop10
 type: documentation
 altfooter: true
-level: 4
+level: 2
 auto-migrated: 0
 pitch:
 ---
