@@ -1,6 +1,5 @@
 ---
 layout: col-sidebar
-title: OWASP Machine Learning Security Top Ten
 type: documentation
 altfooter: true
 level: 4
@@ -9,7 +8,7 @@ pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML06:2023:Corrupted_Packages
+title: ML06:2023 Corrupted Packages
 lang: en
 author:
 contributors:
@@ -19,7 +18,6 @@ prevalence:
 detectability: 2
 technical: 4
 redirect_from:
-
 ---
 
 |                                                     Threat agents/Attack vectors                                                     |                           Security Weakness                            |                                      Impact                                       |
