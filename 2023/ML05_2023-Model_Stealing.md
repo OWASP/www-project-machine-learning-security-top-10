@@ -1,6 +1,5 @@
 ---
 layout: col-sidebar
-title: OWASP Machine Learning Security Top Ten
 type: documentation
 altfooter: true
 level: 4
@@ -9,7 +8,7 @@ pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML05:2023:Model_Stealing
+title: ML05:2023 Model Stealing
 lang: en
 author:
 contributors:

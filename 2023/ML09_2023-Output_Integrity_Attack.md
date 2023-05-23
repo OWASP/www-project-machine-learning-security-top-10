@@ -1,6 +1,5 @@
 ---
 layout: col-sidebar
-title: OWASP Machine Learning Security Top Ten
 type: documentation
 altfooter: true
 level: 4
@@ -9,7 +8,7 @@ pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML09:2023:Output_Integrity_Attack
+title: ML09:2023 Output Integrity Attack
 lang: en
 author:
 contributors:
@@ -69,4 +68,4 @@ Monitoring and auditing: Regular monitoring and auditing of the results
 and the interactions between the model and the interface can help detect
 any suspicious activities and respond accordingly.
 
-**[References]{.underline}**:
+**References:**

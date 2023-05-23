@@ -1,7 +1,5 @@
 ---
 layout: col-sidebar
-title: OWASP Machine Learning Security Top Ten
-tags: mltop10
 type: documentation
 altfooter: true
 level: 4
@@ -10,7 +8,7 @@ pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML03:2023:Model_Inversion_Attack
+title: ML03:2023 Model Inversion Attack
 lang: en
 author:
 contributors:
