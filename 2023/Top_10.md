@@ -14,7 +14,7 @@ redirect_from:
 [ML01:2023 Adversarial Attack](ML01_2023-Adversarial_Attack.md)  
 [ML02:2023 Data Poisoning Attack](ML02_2023-Data_Poisoning_Attack.md)  
 [ML03:2023 Model Inversion Attack](ML03_2023-Model_Inversion_Attack.md)  
-[ML04:2023 Membership Interference Attack](ML04_2023-Membership_interference_Attack.md)  
+[ML04:2023 Membership Inference Attack](ML04_2023-Membership_Inference_Attack.md)
 [ML05:2023 Model Stealing](ML05_2023-Model_Stealing.md)  
 [ML06:2023 Corrupted Packages](ML06_2023-Corrupted_Packages.md)  
 [ML07:2023 Transfer Learning Attack](ML07_2023-Transfer_Learning_Attack.md)  
