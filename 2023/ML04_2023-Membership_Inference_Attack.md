@@ -31,7 +31,7 @@ specific circumstances of each machine learning system.
 
 **Description:**
 
-Membership interference attacks occur when an attacker manipulates the
+Membership inference attacks occur when an attacker manipulates the
 model's training data in order to cause it to behave in a way that
 exposes sensitive information.
 
