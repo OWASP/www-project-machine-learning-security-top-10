@@ -52,7 +52,7 @@ access to sensitive information. For example, the attacker could use a
 manipulated image of themselves and the system would identify them as a
 legitimate user.
 
-**[How to Prevent:]{.underline}**
+**How to Prevent:**
 
 Regularly monitor and update the training datasets: Regularly monitoring
 and updating the training datasets can help prevent the transfer of
