@@ -12,7 +12,7 @@ is to deliver a standard awareness document for developers and application
 security practitioners.
 
 More infomration on the project scope and target audience is available in
-our [project working group charter](./CHARTER.md).
+our [project working group charter](https://github.com/OWASP/www-project-machine-learning-security-top-10/wiki/Charter).
 
 ## Contribution
 
