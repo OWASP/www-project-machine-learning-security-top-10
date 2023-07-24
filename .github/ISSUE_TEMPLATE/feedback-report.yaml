@@ -25,17 +25,17 @@ body:
   - type: textarea
     id: feedback
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: What would you like to report?
+      description: If this is an issue, lso tell us what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "I would like to report the following issue/feedback"
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](../../CODE_OF_CONDUCT.md)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](../CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
