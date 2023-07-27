@@ -1,3 +1,10 @@
+---
+title: Charter
+layout: null
+tab: true
+order: 1
+---
+
 # OWASP Project MLSec Top 10 - Working Group Charter
 
 ## Purpose
