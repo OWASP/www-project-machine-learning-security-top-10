@@ -1,11 +1,12 @@
 ### Leaders
-* [Abraham Kang](mailto:abraham.kang@owasp.org)
-* [Shain Singh](mailto:shain.singh@owasp.org)
-* [Sagar Bhure](mailto:sagar.bhure@owasp.org)
-* [Rob van der Veer](mailto:rob.vanderveer@owasp.org)
 
+- [Abraham Kang](mailto:abraham.kang@owasp.org)
+- [Shain Singh](mailto:shain.singh@owasp.org)
+- [Sagar Bhure](mailto:sagar.bhure@owasp.org)
+- [Rob van der Veer](mailto:rob.vanderveer@owasp.org)
 
 ### Contributors
+
 - [Vamsi Suman Kanukollu](mailto:sumankanukollu@gmail.com)
 - [M S Nishanth](mailto:msnishanth9001@gmail.com)
 - [Buchibabu Bandarupally](mailto:buchibabu.bandarupally@gmail.com)
