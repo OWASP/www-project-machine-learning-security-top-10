@@ -1,6 +1,14 @@
-# Related projects
+---
+title: Related Projects
+layout: null
+tab: true
+order: 2
+tags: example-tag
+---
 
-This lists contains projects related/similar to OWASP Top10 for Machine Learning. 
+# Related Projects
+
+This lists contains projects related/similar to OWASP Top10 for Machine Learning.
 
 1. [MLSecOps Top10](https://ethical.institute/security.html)
 2. [OWASP Top10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
