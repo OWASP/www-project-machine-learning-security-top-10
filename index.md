@@ -1,7 +1,7 @@
 ---
 layout: col-sidebar
 title: OWASP Machine Learning Security Top Ten
-tags: mltop10
+tags: mltop10 ebpf-tag
 type: documentation
 altfooter: true
 level: 2
