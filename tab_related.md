@@ -1,12 +1,12 @@
 ---
-title: Related Projects
+title: Related
 layout: null
 tab: true
 order: 2
 tags: example-tag
 ---
 
-# Related Projects
+# Related
 
 This lists contains projects related/similar to OWASP Top10 for Machine Learning.
 
