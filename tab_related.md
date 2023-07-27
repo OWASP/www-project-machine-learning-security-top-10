@@ -3,6 +3,7 @@ title: Related
 layout: null
 tab: true
 order: 2
+tags: related-tag
 ---
 
 # Related
