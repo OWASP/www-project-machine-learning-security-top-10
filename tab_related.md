@@ -1,4 +1,12 @@
-# Related Projects
+---
+title: Related
+layout: null
+tab: true
+order: 2
+tags: related-tag
+---
+
+# Related
 
 **Top 10 lists related to ML and AI:**
 Top10 lists similar to famous OWASP Top10 for Web Applications list, but for AI:
