@@ -15,3 +15,4 @@
 * [Jakub Kaluzny](mailto:jakub.artur.kaluzny@gmail.com)
 * [David Ottenheimer](mailto:david@inrupt.com)
 * [Haral Tsitsivas](mailto:haral.tsitsivas@owasp.org)
+* [Mikołaj Kowalczyk](mailto:mik0w@hackstery.com)
