@@ -1,6 +1,3 @@
 remote_theme: "owasp/www--site-theme@main"
 plugins:
   - jekyll-include-cache-0.2.0
-  - name: Markdown to PDF and HTML
-    uses: BaileyJM02/markdown-to-pdf@v1.2.0
-
