@@ -21,7 +21,17 @@ jobs:
           echo; echo "Output Folder Listing"
           ls
           cd ..
-      
+      - name: Commit changes
+      run: |
+        git config --global user.email "no-reply@github.com"
+        git config --global user.name "GitHub Actions"
+        git add _output/. 
+        git commit -m "add generated pdfs"
+        git remote set-url origin https://:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ 
       - uses: actions/upload-artifact@v1
         with:
           name: output
