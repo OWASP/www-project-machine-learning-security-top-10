@@ -16,7 +16,7 @@ jobs:
           echo; echo "Input Folder Listing"
           ls
           echo; echo "Generating PDF"
-          for f in *.md; do cat $f; echo; done | md-to-pdf > ../_output/blue-paper.pdf
+          for f in *.md; do cat $f; echo; done | md-to-pdf > ../_output/OWASP_ML_Top10.pdf
           cd ../_output
           echo; echo "Output Folder Listing"
           ls
