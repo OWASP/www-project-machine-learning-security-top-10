@@ -1,0 +1,9 @@
+[book]
+authors = ["msnishanth9001"]
+language = "en"
+multilingual = false
+src = "2023"
+title = "OWASP Machine Learning Security Top Ten"
+
+[build]
+create-missing = true # This is kept for convenience, but CI sets it to false

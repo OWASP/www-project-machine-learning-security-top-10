@@ -1,0 +1,954 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>OWASP Machine Learning Security Top Ten</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="Introduction.html">Introduction</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Top 10: 2023</li><li class="chapter-item expanded "><a href="Top_10.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ML01_2023-Adversarial_Attack.html"><strong aria-hidden="true">1.1.</strong> ML01_2023- Adversarial Attack</a></li><li class="chapter-item expanded "><a href="ML02_2023-Data_Poisoning_Attack.html"><strong aria-hidden="true">1.2.</strong> ML02_2023- Data Poisoning Attack</a></li><li class="chapter-item expanded "><a href="ML03_2023-Model_Inversion_Attack.html"><strong aria-hidden="true">1.3.</strong> ML03_2023- Model InversionAttack</a></li><li class="chapter-item expanded "><a href="ML04_2023-Membership_Inference_Attack.html"><strong aria-hidden="true">1.4.</strong> ML04_2023- Membership Inference Attack</a></li><li class="chapter-item expanded "><a href="ML05_2023-Model_Stealing.html"><strong aria-hidden="true">1.5.</strong> ML05_2023- Model Stealing</a></li><li class="chapter-item expanded "><a href="ML06_2023-Corrupted_Packages.html"><strong aria-hidden="true">1.6.</strong> ML06_2023- Corrupted Packages</a></li><li class="chapter-item expanded "><a href="ML07_2023-Transfer_Learning_Attack.html"><strong aria-hidden="true">1.7.</strong> ML07_2023- Transfer Learning Attack</a></li><li class="chapter-item expanded "><a href="ML08_2023-Model_Skewing.html"><strong aria-hidden="true">1.8.</strong> ML08_2023- Model Skewing</a></li><li class="chapter-item expanded "><a href="ML09_2023-Output_Integrity_Attack.html"><strong aria-hidden="true">1.9.</strong> ML09_2023- Output Integrity Attack</a></li><li class="chapter-item expanded "><a href="ML10_2023-Neural_Net_Reprogramming.html"><strong aria-hidden="true">1.10.</strong> ML10_2023- Neural Net Reprogramming</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">OWASP Machine Learning Security Top Ten</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <hr />
+<p>document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 3
+title: Introduction
+lang: en
+layout: full-width-document
+author:
+contributors:
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten
+redirect_from:</p>
+<hr />
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 5
+title: 2023 Top 10
+lang: en
+layout: full-width-document
+author:
+contributors:
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, mltop10
+redirect_from:</h2>
+<p><a href="ML01_2023-Adversarial_Attack.html">ML01:2023 Adversarial Attack</a><br />
+<a href="ML02_2023-Data_Poisoning_Attack.html">ML02:2023 Data Poisoning Attack</a><br />
+<a href="ML03_2023-Model_Inversion_Attack.html">ML03:2023 Model Inversion Attack</a><br />
+<a href="ML04_2023-Membership_Inference_Attack.html">ML04:2023 Membership Inference Attack</a><br />
+<a href="ML05_2023-Model_Stealing.html">ML05:2023 Model Stealing</a><br />
+<a href="ML06_2023-Corrupted_Packages.html">ML06:2023 Corrupted Packages</a><br />
+<a href="ML07_2023-Transfer_Learning_Attack.html">ML07:2023 Transfer Learning Attack</a><br />
+<a href="ML08_2023-Model_Skewing.html">ML08:2023 Model Skewing</a><br />
+<a href="ML09_2023-Output_Integrity_Attack.html">ML09:2023 Output Integrity Attack</a><br />
+<a href="ML10_2023-Neural_Net_Reprogramming.html">ML10:2023 Neural Net Reprogramming</a></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML01:2023 Adversarial Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML01:2023, mltop10
+exploitability: 5
+prevalence:
+detectability: 3
+technical: 5
+redirect_from:</h2>
+<p>RISK Chart for Scenario One:</p>
+<div class="table-wrapper"><table><thead><tr><th>Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td>Exploitability: 5 (Easy to exploit) ML Application Specific: 4 ML Operations Specific: 3</td><td style="text-align: center">Detectability: 3 (The adversarial image may not be noticeable to the naked eye, making it difficult to detect the attack)</td><td style="text-align: center">Technical: 5 (The attack requires technical knowledge of deep learning and image processing techniques)</td></tr>
+<tr><td>Threat Agent: Attacker with knowledge of deep learning and image processing techniques Attack Vector: Deliberately crafted adversarial image that is similar to a legitimate image</td><td style="text-align: center">Vulnerability in the deep learning model's ability to classify images accurately</td><td style="text-align: center">Misclassification of the image, leading to security bypass or harm to the system</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description</strong>:
+Adversarial attacks are a type of attack in which an attacker
+deliberately alters input data to mislead the model.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario 1: Image classification</p>
+<p>A deep learning model is trained to classify images into different
+categories, such as dogs and cats. An attacker creates an adversarial
+image that is very similar to a legitimate image of a cat, but with
+small, carefully crafted perturbations that cause the model to
+misclassify it as a dog. When the model is deployed in a real-world
+setting, the attacker can use the adversarial image to bypass security
+measures or cause harm to the system.</p>
+<p>Scenario 2: Network intrusion detection</p>
+<p>A deep learning model is trained to detect intrusions in a network. An
+attacker creates adversarial network traffic by carefully crafting
+packets in such a way that they will evade the model's intrusion
+detection system. The attacker can manipulate the features of the
+network traffic, such as the source IP address, destination IP address,
+or payload, in such a way that they are not detected by the intrusion
+detection system. For example, the attacker may hide their source IP
+address behind a proxy server or encrypt the payload of their network
+traffic. This type of attack can have serious consequences, as it can
+lead to data theft, system compromise, or other forms of damage.</p>
+<p><strong>How to Prevent:</strong></p>
+<ol>
+<li>
+<p>Adversarial training: One approach to defending against adversarial
+attacks is to train the model on adversarial examples. This can help
+the model become more robust to attacks and reduce its
+susceptibility to being misled.</p>
+</li>
+<li>
+<p>Robust models: Another approach is to use models that are designed
+to be robust against adversarial attacks, such as adversarial
+training or models that incorporate defense mechanisms.</p>
+</li>
+<li>
+<p>Input validation: Input validation is another important defense
+mechanism that can be used to detect and prevent adversarial
+attacks. This involves checking the input data for anomalies, such
+as unexpected values or patterns, and rejecting inputs that are
+likely to be malicious.</p>
+</li>
+</ol>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML02:2023 Data Poisoning Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML02:2023, mltop10
+exploitability: 3
+prevalence:
+detectability: 2
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 3 (Medium to exploit)<br>ML Application Specific: 4 <br>ML Operations Specific: 3</td><td style="text-align: center">Detectability: 2<br>(Limited)</td><td style="text-align: center">Technical: 4<br></td></tr>
+<tr><td style="text-align: center">Threat Agent: Attacker who has access to the training data used for the model.<br>Attack Vector: The attacker injects malicious data into the training data set.</td><td style="text-align: center">Lack of data validation and insufficient monitoring of the training data.</td><td style="text-align: center">The model will make incorrect predictions based on the poisoned data, leading to false decisions and potentially serious consequences.</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Data poisoning attacks occur when an attacker manipulates the training
+data to cause the model to behave in an undesirable way.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario 1: Training a spam classifier</p>
+<p>An attacker poisons the training data for a deep learning model that
+classifies emails as spam or not spam. The attacker executed this attack
+by injecting the maliciously labeled spam emails into the training data
+set. This could be done by compromising the data storage system, for
+example by hacking into the network or exploiting a vulnerability in the
+data storage software. The attacker could also manipulate the data
+labeling process, such as by falsifying the labeling of the emails or by
+bribing the data labelers to provide incorrect labels.</p>
+<p>Scenario 2: Training a network traffic classification system</p>
+<p>An attacker poisons the training data for a deep learning model that is
+used to classify network traffic into different categories, such as
+email, web browsing, and video streaming. They introduce a large number
+of examples of network traffic that are incorrectly labeled as a
+different type of traffic, causing the model to be trained to classify
+this traffic as the incorrect category. As a result, the model may be
+trained to make incorrect traffic classifications when the model is
+deployed, potentially leading to misallocation of network resources or
+degradation of network performance.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Data validation and verification: Ensure that the training data is
+thoroughly validated and verified before it is used to train the model.
+This can be done by implementing data validation checks and employing
+multiple data labelers to validate the accuracy of the data labeling.</p>
+<p>Secure data storage: Store the training data in a secure manner, such as
+using encryption, secure data transfer protocols, and firewalls.</p>
+<p>Data separation: Separate the training data from the production data to
+reduce the risk of compromising the training data.</p>
+<p>Access control: Implement access controls to limit who can access the
+training data and when they can access it.</p>
+<p>Monitoring and auditing: Regularly monitor the training data for any
+anomalies and conduct audits to detect any data tampering.</p>
+<p>Model validation: Validate the model using a separate validation set
+that has not been used during training. This can help to detect any data
+poisoning attacks that may have affected the training data.</p>
+<p>Model ensembles: Train multiple models using different subsets of the
+training data and use an ensemble of these models to make predictions.
+This can reduce the impact of data poisoning attacks as the attacker
+would need to compromise multiple models to achieve their goals.</p>
+<p>Anomaly detection: Use anomaly detection techniques to detect any
+abnormal behavior in the training data, such as sudden changes in the
+data distribution or data labeling. These techniques can be used to
+detect data poisoning attacks early on.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML03:2023 Model Inversion Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML03:2023, mltop10
+exploitability: 4
+prevalence:
+detectability: 2
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 4 (Medium to exploit)<br>ML Application Specific: 5 <br>ML Operations Specific: 3</td><td style="text-align: center">Detectability: 2<br>(Limited)</td><td style="text-align: center">Technical: 4<br>Moderate technical knowledge required to carry out the attack)<br></td></tr>
+<tr><td style="text-align: center">Threat Agents: Attackers who have access to the model and input data<br>Attack Vectors: Submitting an image to the model and analyzing the model's response</td><td style="text-align: center">Model's output can be used to infer sensitive information about the input data</td><td style="text-align: center">Confidential information about the input data can be compromised</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Model inversion attacks occur when an attacker reverse-engineers the
+model to extract information from it.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario 1: Stealing personal information from a face recognition model</p>
+<p>An attacker trains a deep learning model to perform face recognition.
+They then use this model to perform a model inversion attack on a
+different face recognition model that is used by a company or
+organization. The attacker inputs images of individuals into the model
+and recovers the personal information of the individuals from the
+model's predictions, such as their name, address, or social security
+number.</p>
+<p>The attacker executed this attack by training the model to perform face
+recognition and then using this model to invert the predictions of
+another face recognition model. This could be done by exploiting a
+vulnerability in the model's implementation or by accessing the model
+through an API. The attacker would then be able to recover the personal
+information of the individuals from the model's predictions.</p>
+<p>Scenario 2: Bypassing a bot detection model in online advertising</p>
+<p>An advertiser wants to automate their advertising campaigns by using
+bots to perform actions such as clicking on ads and visiting websites.
+However, online advertising platforms use bot detection models to
+prevent bots from performing these actions. To bypass these models, the
+advertiser trains a deep learning model for bot detection and uses it to
+invert the predictions of the bot detection model used by the online
+advertising platform. The advertiser inputs their bots into the model
+and is able to make the bots appear as human users, allowing them to
+bypass the bot detection and successfully execute their automated
+advertising campaigns.</p>
+<p>The advertiser executed this attack by training their own bot detection
+model and then using it to reverse the predictions of the bot detection
+model used by the online advertising platform. They were able to access
+this other model through a vulnerability in its implementation or by
+using an API. The end result of the attack was the advertiser
+successfully automating their advertising campaigns by making their bots
+appear as human users.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Access control: Limiting access to the model or its predictions can
+prevent attackers from obtaining the information needed to invert the
+model. This can be done by requiring authentication, encryption, or
+other forms of security when accessing the model or its predictions.</p>
+<p>Input validation: Validating the inputs to the model can prevent
+attackers from providing malicious data that can be used to invert the
+model. This can be done by checking the format, range, and consistency
+of the inputs before they are processed by the model.</p>
+<p>Model transparency: Making the model and its predictions transparent can
+help to detect and prevent model inversion attacks. This can be done by
+logging all inputs and outputs, providing explanations for the model's
+predictions, or allowing users to inspect the model's internal
+representations.</p>
+<p>Regular monitoring: Monitoring the model's predictions for anomalies
+can help to detect and prevent model inversion attacks. This can be done
+by tracking the distribution of inputs and outputs, comparing the
+model's predictions to ground truth data, or monitoring the model's
+performance over time.</p>
+<p>Model retraining: Regularly retraining the model can help to prevent the
+information leaked by model inversion attacks from becoming outdated.
+This can be done by incorporating new data and correcting any
+inaccuracies in the model's predictions.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML04:2023 Membership Inference Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML04:2023, mltop10
+exploitability:
+prevalence:
+detectability:
+technical:
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 4 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 5 <br>ML Operations Specific: 3</td><td style="text-align: center">Detectability: 3 <br>(Detection of this attack is moderately challenging)</td><td style="text-align: center">Technical: 4 <br>(Moderate technical skill required)<br></td></tr>
+<tr><td style="text-align: center">Hackers or malicious actors who have access to the data and the model<br>Insiders who have malicious intent or are bribed to interfere with the data<br> <br>Unsecured data transmission channels that allow unauthorized access to the data</td><td style="text-align: center">Lack of proper data access controls<br>Lack of proper data validation and sanitization techniques<br>Lack of proper data encryption<br>Lack of proper data backup and recovery techniques</td><td style="text-align: center">Unreliable or incorrect model predictions<br>Loss of confidentiality and privacy of sensitive data<br>Legal and regulatory compliance violations<br>Reputational damage</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Membership inference attacks occur when an attacker manipulates the
+model's training data in order to cause it to behave in a way that
+exposes sensitive information.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario 1: Inferencing financial data from a machine learning model</p>
+<p>A malicious attacker wants to gain access to sensitive financial
+information of individuals. They do this by training a machine learning
+model on a dataset of financial records and using it to query whether or
+not a particular individual's record was included in the training data.
+The attacker can then use this information to infer the financial
+history and sensitive information of individuals.</p>
+<p>The attacker executed this attack by training a machine learning model
+on a dataset of financial records obtained from a financial
+organization. They then used this model to query whether or not a
+particular individual's record was included in the training data,
+allowing them to infer sensitive financial information.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Model training on randomized or shuffled data: Training machine learning
+models on randomized or shuffled data can make it more difficult for an
+attacker to determine whether a particular example was included in the
+training dataset.</p>
+<p>Model Obfuscation: Obfuscating the model's predictions by adding random
+noise or using differential privacy techniques can help prevent
+membership inference attacks by making it harder for an attacker to
+determine the model's training data.</p>
+<p>Regularization: Regularization techniques such as L1 or L2
+regularization can help prevent overfitting of the model to the training
+data, which can reduce the model's ability to accurately determine
+whether a particular example was included in the training dataset.</p>
+<p>Reducing the training data: Reducing the size of the training dataset or
+removing redundant or highly correlated features can help reduce the
+information an attacker can gain from a membership inference attack.</p>
+<p>Testing and monitoring: Regularly testing and monitoring the model's
+behavior for anomalies can help detect and prevent membership inference
+attacks by detecting when an attacker is attempting to gain access to
+sensitive information.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML05:2023 Model Stealing
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML05:2023, mltop10
+exploitability: 4
+prevalence:
+detectability: 3
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 4 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 4<br>ML Operations Specific: 3</td><td style="text-align: center">Detectability: 3 <br>(Detection of this attack is moderately challenging)</td><td style="text-align: center">Technical: 4 <br>(Moderate technical skill required)<br></td></tr>
+<tr><td style="text-align: center">Agent/Attack Vector: This refers to the entity that carries out the attack, in this case, it is an attacker who wants to steal the machine learning model.</td><td style="text-align: center">Unsecured model deployment: The unsecured deployment of the model makes it easier for the attacker to access and steal the model.</td><td style="text-align: center">The impact of a model theft could be both on the confidentiality of the data used to train the model and the reputation of the organization that developed the model.<br>Confidentiality, Reputation</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Model stealing attacks occur when an attacker gains access to the
+model's parameters.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario: Stealing a machine learning model from a competitor</p>
+<p>A malicious attacker is working for a competitor of a company that has
+developed a valuable machine learning model. The attacker wants to steal
+this model so that their company can gain a competitive advantage and
+start using it for their own purposes.</p>
+<p>The attacker executed this attack by reverse engineering the company's
+machine learning model, either by disassembling the binary code or by
+accessing the model's training data and algorithm. Once the attacker
+has reverse engineered the model, they can use this information to
+recreate the model and start using it for their own purposes. This can
+result in significant financial loss for the original company, as well
+as damage to their reputation.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Encryption: Encrypting the model's code, training data, and other
+sensitive information can prevent attackers from being able to access
+and steal the model.</p>
+<p>Access Control: Implementing strict access control measures, such as
+two-factor authentication, can prevent unauthorized individuals from
+accessing and stealing the model.</p>
+<p>Regular backups: Regularly backing up the model's code, training data,
+and other sensitive information can ensure that it can be recovered in
+the event of a theft.</p>
+<p>Model Obfuscation: Obfuscating the model's code and making it difficult
+to reverse engineer can prevent attackers from being able to steal the
+model.</p>
+<p>Watermarking: Adding a watermark to the model's code and training data
+can make it possible to trace the source of a theft and hold the
+attacker accountable.</p>
+<p>Legal protection: Securing legal protection for the model, such as
+patents or trade secrets, can make it more difficult for an attacker to
+steal the model and can provide a basis for legal action in the event of
+a theft.</p>
+<p>Monitoring and auditing: Regularly monitoring and auditing the model's
+use can help detect and prevent theft by detecting when an attacker is
+attempting to access or steal the model.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML06:2023 Corrupted Packages
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML06:2023, mltop10
+exploitability: 5
+prevalence:
+detectability: 2
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 5 (Effort required to exploit this weakness is moderate)<br>ML Application Specific: 5 <br>ML Operations Specific: 3</td><td style="text-align: center">Detectability: 2<br>(Detection of this attack is not much challenging)</td><td style="text-align: center">Technical: 4 <br>(Moderate technical skill required)<br></td></tr>
+<tr><td style="text-align: center">Malicious attacker<br>Modifying code of open-source package used by the machine learning project</td><td style="text-align: center">Relying on untrusted third-party code</td><td style="text-align: center">Compromise of the machine learning project and potential harm to the organization</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Corrupted packages attacks occur when an attacker modifies or replaces a
+machine learning library or model that is used by a system.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Scenario 1: Attack on a machine learning project in an organization</p>
+<p>A malicious attacker wants to compromise a machine learning project
+being developed by a large organization. The attacker knows that the
+project relies on several open-source packages and libraries and wants
+to find a way to compromise the project.</p>
+<p>The attacker executed the attack by modifying the code of one of the
+packages that the project relies on, such as NumPy or Scikit-learn. The
+attacker then uploads this modified version of the package to a public
+repository, such as PyPI, making it available for others to download and
+use. When the victim organization downloads and installs the package,
+the attacker's malicious code is also installed and can be used to
+compromise the project.</p>
+<p>This type of attack can be particularly dangerous as it can go unnoticed
+for a long time, since the victim may not realize that the package they
+are using has been compromised. The attacker's malicious code could be
+used to steal sensitive information, modify results, or even cause the
+machine learning model to fa</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Verify Package Signatures: Before installing any packages, verify the
+digital signatures of the packages to ensure that they have not been
+tampered with.</p>
+<p>Use Secure Package Repositories: Use secure package repositories, such
+as Anaconda, that enforce strict security measures and have a vetting
+process for packages.</p>
+<p>Keep Packages Up-to-date: Regularly update all packages to ensure that
+any vulnerabilities are patched.</p>
+<p>Use Virtual Environments: Use virtual environments to isolate packages
+and libraries from the rest of the system. This makes it easier to
+detect any malicious packages and remove them.</p>
+<p>Perform Code Reviews: Regularly perform code reviews on all packages and
+libraries used in a project to detect any malicious code.</p>
+<p>Use Package Verification Tools: Use tools such as PEP 476 and Secure
+Package Install to verify the authenticity and integrity of packages
+before installation.</p>
+<p>Educate Developers: Educate developers on the risks associated with
+Corrupted Packages Attacks and the importance of verifying packages
+before installation.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML07:2023 Transfer Learning Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML07:2023, mltop10
+exploitability: 4
+prevalence:
+detectability: 2
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 4 (Easy)<br>ML Application Specific: 4<br>The attack specifically targets the machine learning application and can cause significant harm to the model and the organization <br>ML Operations Specific: 3<br>The attack requires knowledge of machine learning operations but can be executed with relative ease</td><td style="text-align: center">Detectability: 2<br>The attack may be difficult to detect as the results produced by the compromised model may appear to be correct and consistent with expectations</td><td style="text-align: center">Technical: 4 <br>The attack requires a high level of technical expertise in machine learning and a willingness to compromise the integrity of the training dataset or pre-trained models.<br></td></tr>
+<tr><td style="text-align: center">Attacker with knowledge of machine learning and access to the training dataset or pre-trained models</td><td style="text-align: center">Lack of proper data protection measures for the training dataset and pre-trained models<br>Insecure storage and sharing of pre-trained models<br>Lack of proper data protection measures for the pre-trained models and training dataset</td><td style="text-align: center">Misleading or incorrect results from the machine learning model<br>Confidentiality breach of sensitive information in the training dataset<br>Reputational harm to the organization<br>Legal or regulatory compliance issues</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Transfer learning attacks occur when an attacker trains a model on one
+task and then fine-tunes it on another task to cause it to behave in an
+undesirable way.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>An attacker trains a machine learning model on a malicious dataset that
+contains manipulated images of faces. The attacker wants to target a
+face recognition system used by a security firm for identity
+verification.</p>
+<p>The attacker then transfers the model's knowledge to the target face
+recognition system. The target system starts using the attacker's
+manipulated model for identity verification.</p>
+<p>As a result, the face recognition system starts making incorrect
+predictions, allowing the attacker to bypass the security and gain
+access to sensitive information. For example, the attacker could use a
+manipulated image of themselves and the system would identify them as a
+legitimate user.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Regularly monitor and update the training datasets: Regularly monitoring
+and updating the training datasets can help prevent the transfer of
+malicious knowledge from the attacker's model to the target model.</p>
+<p>Use secure and trusted training datasets: Using secure and trusted
+training datasets can help prevent the transfer of malicious knowledge
+from the attacker's model to the target model.</p>
+<p>Implement model isolation: Implementing model isolation can help prevent
+the transfer of malicious knowledge from one model to another. For
+example, separating the training and deployment environments can prevent
+attackers from transferring knowledge from the training environment to
+the deployment environment.</p>
+<p>Use differential privacy: Using differential privacy can help protect
+the privacy of individual records in the training dataset and prevent
+the transfer of malicious knowledge from the attacker's model to the
+target model.</p>
+<p>Perform regular security audits: Regular security audits can help
+identify and prevent transfer learning attacks by identifying and
+addressing vulnerabilities in the system.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML08:2023 Model Skewing
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML08:2023, mltop10
+exploitability: 5
+prevalence:
+detectability: 2
+technical: 4
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 5 (Easy)<br>ML Application Specific: 4<br>the attacker has a clear understanding of the machine learning project and its vulnerabilities.<br>ML Operations Specific: 3<br>manipulation of the training data requires knowledge of the machine learning process</td><td style="text-align: center">Detectability: 2<br>the model skewing might not be easily noticeable during the testing phase</td><td style="text-align: center">Technical: 4 <br>manipulation of the training data is a technically complex task</td></tr>
+<tr><td style="text-align: center">The attackers in a Model Skewing attack could be individuals with malicious intent, or a third-party with a vested interest in manipulating the outcomes of a model.</td><td style="text-align: center">The security weakness in a Model Skewing attack is the inability of the model to accurately reflect the underlying distribution of the training data. This can occur due to factors such as data bias, incorrect sampling of the data, or manipulation of the data or training process by an attacker.</td><td style="text-align: center">The impact of a Model Skewing attack can be significant and can lead to incorrect decisions being made based on the output of the model. This can result in financial loss, damage to reputation, and even harm to individuals if the model is being used for critical applications such as medical diagnosis or criminal justice.</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Model skewing attacks occur when an attacker manipulates the
+distribution of the training data to cause the model to behave in an
+undesirable way.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>A financial institution is using a machine learning model to predict the
+creditworthiness of loan applicants, and the model's predictions are
+integrated into their loan approval process. An attacker wants to
+increase their chances of getting a loan approved, so they manipulate
+the feedback loop in the MLOps system. The attacker provides fake
+feedback data to the system, indicating that high-risk applicants have
+been approved for loans in the past, and this feedback is used to update
+the model's training data. As a result, the model's predictions are
+skewed towards low-risk applicants, and the attacker's chances of
+getting a loan approved are significantly increased.</p>
+<p>This type of attack can compromise the accuracy and fairness of the
+model, leading to unintended consequences and potential harm to the
+financial institution and its customers.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Implement robust access controls: Ensure that only authorized personnel
+have access to the MLOps system and its feedback loops, and that all
+activities are logged and audited.</p>
+<p>Verify the authenticity of feedback data: Use techniques such as digital
+signatures and checksums to verify that the feedback data received by
+the system is genuine, and reject any data that does not match the
+expected format.</p>
+<p>Use data validation and cleaning techniques: Clean and validate the
+feedback data before using it to update the training data, to minimize
+the risk of incorrect or malicious data being used.</p>
+<p>Implement anomaly detection: Use techniques such as statistical and
+machine learning-based methods to detect and alert on anomalies in the
+feedback data, which could indicate an attack.</p>
+<p>Regularly monitor the model's performance: Continuously monitor the
+performance of the model, and compare its predictions with actual
+outcomes to detect any deviation or skewing.</p>
+<p>Continuously train the model: Regularly retrain the model using updated
+and verified training data, to ensure that it continues to reflect the
+latest information and trends.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML09:2023 Output Integrity Attack
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML09:2023, mltop10
+exploitability: 5
+prevalence:
+detectability: 3
+technical: 3
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 5 (Easy)<br>ML Application Specific: 4<br>ML Operations Specific: 4<br></td><td style="text-align: center">Detectability: 3<br></td><td style="text-align: center">Technical: 3<br></td></tr>
+<tr><td style="text-align: center">Malicious attackers or insiders who have access to the model's inputs and outputs<br>Third-party entities who have access to the inputs and outputs and may tamper with them to achieve a certain outcome</td><td style="text-align: center">Lack of proper authentication and authorization measures to ensure the integrity of the inputs and outputs<br>Inadequate validation and verification of inputs and outputs to prevent tampering<br>Insufficient monitoring and logging of inputs and outputs to detect tampering</td><td style="text-align: center">Loss of confidence in the model's predictions and results<br>Financial loss or damage to reputation if the model's predictions are used to make important decisions<br>Security risks if the model is used in a critical application such as financial fraud detection or cybersecurity</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>In an Output Integrity Attack scenario, an attacker aims to modify or
+manipulate the output of a machine learning model in order to change its
+behavior or cause harm to the system it is used in.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>An attacker has gained access to the output of a machine learning model
+that is being used to diagnose diseases in a hospital. The attacker
+modifies the output of the model, making it provide incorrect diagnoses
+for patients. As a result, patients are given incorrect treatments,
+leading to further harm and potentially even death.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Using cryptographic methods: Cryptographic methods like digital
+signatures and secure hashes can be used to verify the authenticity of
+the results.</p>
+<p>Secure communication channels: Communication channels between the model
+and the interface responsible for displaying the results should be
+secured using secure protocols such as SSL/TLS.</p>
+<p>Input Validation: Input validation should be performed on the results to
+check for unexpected or manipulated values.</p>
+<p>Tamper-evident logs: Maintaining tamper-evident logs of all input and
+output interactions can help detect and respond to any output integrity
+attacks.</p>
+<p>Regular software updates: Regular software updates to fix
+vulnerabilities and security patches can help reduce the risk of output
+integrity attacks.</p>
+<p>Monitoring and auditing: Regular monitoring and auditing of the results
+and the interactions between the model and the interface can help detect
+any suspicious activities and respond accordingly.</p>
+<p><strong>References:</strong></p>
+<div style="break-before: page; page-break-before: always;"></div><hr />
+<h2>layout: col-sidebar
+type: documentation
+altfooter: true
+level: 4
+auto-migrated: 0
+pitch:
+document: OWASP Machine Learning Security Top Ten 2023
+year: 2023
+order: 6
+title: ML10:2023 Neural Net Reprogramming
+lang: en
+author:
+contributors:
+tags: OWASP Top Ten 2023, Top Ten, ML10:2023, mltop10
+exploitability: 4
+prevalence:
+detectability: 3
+technical: 3
+redirect_from:</h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">Threat agents/Attack vectors</th><th style="text-align: center">Security Weakness</th><th style="text-align: center">Impact</th></tr></thead><tbody>
+<tr><td style="text-align: center">Exploitability: 4 (Easy)<br>ML Application Specific: 4<br>ML Operations Specific: 4<br></td><td style="text-align: center">Detectability: 3<br></td><td style="text-align: center">Technical: 3<br></td></tr>
+<tr><td style="text-align: center">Malicious individuals or organizations with knowledge and resources to manipulate deep learning models.<br>Malicious insiders within the organization developing the deep learning model</td><td style="text-align: center">Insufficient access controls to the model's code and parameters<br>Lack of proper secure coding practices<br>Inadequate monitoring and logging of model's activity</td><td style="text-align: center">Model's predictions can be manipulated to achieve desired results.<br>Confidential information within the model can be extracted.<br>Decisions based on the model's predictions can be impacted negatively.<br>Reputation and credibility of the organization can be affected</td></tr>
+</tbody></table>
+</div>
+<p>It is important to note that this chart is only a sample based on
+scenario below, and the actual risk assessment will depend on the
+specific circumstances of each machine learning system.</p>
+<p><strong>Description:</strong></p>
+<p>Neural net reprogramming attacks occur when an attacker manipulates the
+model's parameters to cause it to behave in an undesirable way.</p>
+<p><strong>Example Attack Scenario:</strong></p>
+<p>Consider a scenario where a bank is using a machine learning model to
+identify handwritten characters on cheques to automate their clearing
+process. The model has been trained on a large dataset of handwritten
+characters, and it has been designed to accurately identify the
+characters based on specific parameters such as size, shape, slant, and
+spacing.</p>
+<p>An attacker who wants to exploit the Neural Net Reprogramming attack may
+manipulate the parameters of the model by altering the images in the
+training dataset or directly modifying the parameters in the model. This
+can result in the model being reprogrammed to identify characters
+differently. For example, the attacker could change the parameters so
+that the model identifies the character &quot;5&quot; as the character &quot;2&quot;,
+leading to incorrect amounts being processed.</p>
+<p>The attacker can exploit this vulnerability by introducing forged
+cheques into the clearing process, which the model will process as valid
+due to the manipulated parameters. This can result in significant
+financial loss to the bank.</p>
+<p><strong>How to Prevent:</strong></p>
+<p>Regularization: Adding regularization techniques like L1 or L2
+regularization to the loss function helps to prevent overfitting and
+reduce the chance of neural net reprogramming attacks.</p>
+<p>Robust Model Design: Designing models with robust architectures and
+activation functions can help reduce the chances of successful
+reprogramming attacks.</p>
+<p>Cryptographic Techniques: Cryptographic techniques can be used to secure
+the parameters and weights of the model, and prevent unauthorized access
+or manipulation of these parameters.</p>
+<p><strong>References:</strong></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </div>
+    </body>
+</html>
