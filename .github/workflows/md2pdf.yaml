@@ -1,4 +1,4 @@
-name: convert
+name: ParseAllMD 
 on:
   push:
 

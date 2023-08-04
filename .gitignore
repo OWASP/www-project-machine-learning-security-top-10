@@ -2,4 +2,3 @@ __pycache__
 env
 .vscode
 _site/
-_output/
