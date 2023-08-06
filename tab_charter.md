@@ -3,6 +3,7 @@ title: Charter
 layout: null
 tab: true
 order: 1
+tags: related-tag
 ---
 
 # OWASP Project MLSec Top 10 - Working Group Charter
@@ -26,8 +27,8 @@ domains.
 
 ## Scope
 
-This project will provide an awareness document that lists the risks
-associated with machine learning systems. Due to the rapid adoption
+This project will provide an overview of the top 10 security issues of machine
+learning systems. Due to the rapid adoption
 of machine learning systems, there are related projects within
 OWASP and other organisations, that may have narrower or broader
 scope than this project. As an example, while adversarial attacks
