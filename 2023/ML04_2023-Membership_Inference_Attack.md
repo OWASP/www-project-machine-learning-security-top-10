@@ -7,12 +7,12 @@ auto-migrated: 0
 pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
-order: 6
+order: 4
 title: ML04:2023 Membership Inference Attack
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML04:2023, mltop10
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, ML04:2023, mltop10, mlsectop10
 exploitability:
 prevalence:
 detectability:
