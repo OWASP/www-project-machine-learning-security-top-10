@@ -10,8 +10,8 @@ order: 1
 ## Purpose
 
 The primary aim of of the OWASP Machine Learning Security Top 10 project
-is to deliver a standard awareness document for developers and application
-security practitioners. As such, a major goal of this project is to develop
+is to deliver an overview of the top 10 security issues of machine learning systems.
+As such, a major goal of this project is to develop
 a high quality deliverable, reviewed by industry peers.
 
 ## Target Audience
