@@ -46,7 +46,6 @@ Project Leaders will:
 
 - Follow and adhere to all OWASP Foundation [policies and procedures](https://owasp.org/www-policy/)
 - Lead the project as per the [Project Leader Handbook](https://owasp.org/www-pdf-archive/PROJECT_LEADER-HANDBOOK_2014.pdf)
--
 
 Project Contributors will:
 
