@@ -7,12 +7,12 @@ auto-migrated: 0
 pitch:
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
-order: 6
+order: 8
 title: ML08:2023 Model Skewing
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML08:2023, mltop10
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, ML08:2023, mltop10, mlsectop10
 exploitability: 5
 prevalence:
 detectability: 2

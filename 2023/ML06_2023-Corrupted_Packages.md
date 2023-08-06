@@ -12,7 +12,7 @@ title: ML06:2023 Corrupted Packages
 lang: en
 author:
 contributors:
-tags: OWASP Top Ten 2023, Top Ten, ML06:2023, mltop10
+tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, ML06:2023, mltop10, mlsectop10
 exploitability: 5
 prevalence:
 detectability: 2
