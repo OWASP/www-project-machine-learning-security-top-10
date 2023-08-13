@@ -19,7 +19,10 @@ pitch:
 
 - Provide feedback and report potential bugs
 - Suggest enhancements to the project
-- Fix a [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Abug) or implement an [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
+- Fix a
+  [Bug](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+  or implement an
+  [Enhancement](https://github.com/owasp/www-project-machine-learning-security-top-10/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement)
 
 ## Top 10 Machine Learning Security Risks
 
