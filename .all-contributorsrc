@@ -53,6 +53,16 @@
         "question",
         "promotion"
       ]
+    },
+    {
+      "login": "msnishanth9001",
+      "name": "M S Nishanth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49409979?v=4",
+      "profile": "https://github.com/msnishanth9001",
+      "contributions": [
+        "code",
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 7
