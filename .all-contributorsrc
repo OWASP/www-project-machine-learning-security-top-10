@@ -1,10 +1,11 @@
 {
-  "projectName": "OWASP Machine Learning Security Top 10",
+  "projectName": "www-project-machine-learning-security-top-10",
   "projectOwner": "OWASP",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
-    "CONTRIBUTORS.md"
+    "CONTRIBUTORS.md",
+    "tab_contributors.md"
   ],
   "imageSize": 100,
   "commit": true,
@@ -18,8 +19,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "shsingh",
+      "name": "Shain Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/412800?v=4",
+      "profile": "https://shain.io/",
+      "contributions": [
+        "doc",
+        "research"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
-  "linkToUsage": true
+  "contributorsPerLine": 7
 }
