@@ -9,19 +9,23 @@ tags: related-tag
 # Related
 
 **Top 10 lists related to ML and AI:**
+
 Top10 lists similar to famous OWASP Top10 for Web Applications list, but for AI:
 
 - [MLSecOps Top10](https://ethical.institute/security.html)
 - [OWASP Top10 for Large Language Models](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 **Vulnerability databases:**
-Catalogued vulnerabilities and risks that were present in real-world AI and ML systems:
+
+Catalogued vulnerabilities and risks that were present in real-world AI and ML
+systems:
 
 - [AI Vulnerability Database (AVID)](https://avidml.org/)
 - [MITRE ATLAS](https://atlas.mitre.org/)
 - [AI Risk Database](https://airisk.io/)
 
 **AI/ML security guidelines:**
+
 Various guidelines on ML and AI Security and Safety
 
 - [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/)
@@ -29,13 +33,16 @@ Various guidelines on ML and AI Security and Safety
 - [Biden&Harris Administraton - Ensuring Safe, Secure and Trustworthy AI](https://www.whitehouse.gov/wp-content/uploads/2023/07/Ensuring-Safe-Secure-and-Trustworthy-AI.pdf)
 
 **Playbooks**
+
 Interactive playbooks useful in threat modelling and securing AI.
 
 - [NIST AI Risk Management Framework Playbook](https://pages.nist.gov/AIRMF/)
 - [Department of Energy AI Risk Management Playbook](https://www.energy.gov/ai/doe-ai-risk-management-playbook-airmp)
 
 **Other**
-All the other resources related to ML Security - threat modelling resources, risk assessments framework, "Awesome Lists" etc.
+
+All the other resources related to ML Security - threat modelling resources,
+risk assessments framework, "Awesome Lists" etc.
 
 - [Google on Red Teaming AI](https://services.google.com/fh/files/blogs/google_ai_red_team_digital_final.pdf)
 - [Berryville ML Institute Resources for Threat Modelling ML]([https://berryvilleiml.com/interactive/)
