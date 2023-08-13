@@ -99,6 +99,18 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mik0w",
+      "name": "Mikołaj Kowalczyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64902909?v=4",
+      "profile": "https://github.com/mik0w",
+      "contributions": [
+        "code",
+        "doc",
+        "question",
+        "promotion"
+      ]
     }
   ],
   "contributorsPerLine": 7
