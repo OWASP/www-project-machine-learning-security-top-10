@@ -72,6 +72,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "hblankenship",
+      "name": "Harold Blankenship",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36673698?v=4",
+      "profile": "https://owasp.org/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
