@@ -17,13 +17,13 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/25385987?v=4",
       "profile": "https://github.com/sagarbhure",
       "contributions": [
-        "doc",
-        "research",
-        "review",
         "code",
+        "doc",
+        "review",
+        "question",
         "content",
-        "promotion",
-        "question"
+        "research",
+        "promotion"
       ]
     },
     {
@@ -32,13 +32,26 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/412800?v=4",
       "profile": "https://shain.io/",
       "contributions": [
-        "doc",
-        "research",
-        "review",
         "code",
+        "doc",
+        "review",
+        "question",
         "content",
         "promotion",
-        "question"
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "robvanderveer",
+      "name": "Rob van der Veer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/796794?v=4",
+      "profile": "https://github.com/robvanderveer",
+      "contributions": [
+        "review",
+        "code",
+        "doc",
+        "question",
+        "promotion"
       ]
     }
   ],
