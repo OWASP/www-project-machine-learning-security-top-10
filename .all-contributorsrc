@@ -5,7 +5,7 @@
   "repoHost": "https://github.com",
   "files": [
     "CONTRIBUTORS.md",
-    "tab_contributors.md"
+    "README.md"
   ],
   "imageSize": 100,
   "commit": true,
@@ -113,5 +113,5 @@
       ]
     }
   ],
-  "contributorsPerLine": 8
+  "contributorsPerLine": 7
 }
