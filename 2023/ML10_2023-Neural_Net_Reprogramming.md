@@ -9,7 +9,14 @@ year: 2023
 order: 10
 title: ML10:2023 Neural Net Reprogramming
 lang: en
-tags: OWASP Machine Learning Security Top Ten 2023, Top Ten, ML10:2023, mltop10, mlsectop10
+tags:
+  [
+    OWASP Machine Learning Security Top Ten 2023,
+    Top Ten,
+    ML10:2023,
+    mltop10,
+    mlsectop10,
+  ]
 exploitability: 5
 detectability: 3
 technical: 3
