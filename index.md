@@ -27,16 +27,16 @@ More information on the project scope and target audience is available in our
 
 ## Top 10 Machine Learning Security Risks
 
-- [**ML01:2023 Adversarial Attack**](/docs/2023/ML01_2023-Adversarial_Attack.md)
-- [**ML02:2023 Data Poisoning Attack**](/docs/2023/ML02_2023-Data_Poisoning_Attack.md)
-- [**ML03:2023 Model Inversion Attack**](/docs/2023/ML03_2023-Model_Inversion_Attack.md)
-- [**ML04:2023 Membership Inference Attack**](/docs//2023/ML04_2023-Membership_Inference_Attack.md)
-- [**ML05:2023 Model Stealing**](/docs/2023/ML05_2023-Model_Stealing.md)
-- [**ML06:2023 Corrupted Packages**](/docs/2023/ML06_2023-Corrupted_Packages.md)
-- [**ML07:2023 Transfer Learning Attack**](/docs/2023/ML07_2023-Transfer_Learning_Attack.md)
-- [**ML08:2023 Model Skewing**](/docs/2023/ML08_2023-Model_Skewing.md)
-- [**ML09:2023 Output Integrity Attack**](/docs/2023/ML09_2023-Output_Integrity_Attack.md)
-- [**ML10:2023 Neural Net Reprogramming**](/docs/2023/ML10_2023-Neural_Net_Reprogramming.md)
+- [**ML01:2023 Adversarial Attack**](/docs/ML01_2023-Adversarial_Attack.md)
+- [**ML02:2023 Data Poisoning Attack**](/docs/ML02_2023-Data_Poisoning_Attack.md)
+- [**ML03:2023 Model Inversion Attack**](/docs/ML03_2023-Model_Inversion_Attack.md)
+- [**ML04:2023 Membership Inference Attack**](/docs/ML04_2023-Membership_Inference_Attack.md)
+- [**ML05:2023 Model Stealing**](/docs/ML05_2023-Model_Stealing.md)
+- [**ML06:2023 Corrupted Packages**](/docs/ML06_2023-Corrupted_Packages.md)
+- [**ML07:2023 Transfer Learning Attack**](/docs/ML07_2023-Transfer_Learning_Attack.md)
+- [**ML08:2023 Model Skewing**](/docs/ML08_2023-Model_Skewing.md)
+- [**ML09:2023 Output Integrity Attack**](/docs/ML09_2023-Output_Integrity_Attack.md)
+- [**ML10:2023 Neural Net Reprogramming**](/docs/ML10_2023-Neural_Net_Reprogramming.md)
 
 ## Communication
 
