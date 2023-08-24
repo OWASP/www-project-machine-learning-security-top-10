@@ -11,11 +11,15 @@ auto-migrated: 0
 [![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://owasp.org/projects/)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-Welcome to the repository for the OWASP Machine Learning Security Top 10
-project!
+### 📌 _**Important Information**_
+
+_The current version of this work is in draft and is being modified frequently.
+Please refer to the [project wiki](https://github.com/OWASP/www-project-machine-learning-security-top-10/wiki) for information on how to contribute and project release timelines._
 
 ## Overview
 
+Welcome to the repository for the OWASP Machine Learning Security Top 10
+project!
 The primary aim of the OWASP Machine Learning Security Top 10 project is to
 deliver an overview of the top 10 security issues of machine learning systems.
 More information on the project scope and target audience is available in our
@@ -23,19 +27,20 @@ More information on the project scope and target audience is available in our
 
 ## Top 10 Machine Learning Security Risks
 
-- [**ML01:2023 Adversarial Attack**](/2023/ML01_2023-Adversarial_Attack.md)
-- [**ML02:2023 Data Poisoning Attack**](/2023/ML02_2023-Data_Poisoning_Attack.md)
-- [**ML03:2023 Model Inversion Attack**](/2023/ML03_2023-Model_Inversion_Attack.md)
-- [**ML04:2023 Membership Inference Attack**](/2023/ML04_2023-Membership_Inference_Attack.md)
-- [**ML05:2023 Model Stealing**](/2023/ML05_2023-Model_Stealing.md)
-- [**ML06:2023 Corrupted Packages**](/2023/ML06_2023-Corrupted_Packages.md)
-- [**ML07:2023 Transfer Learning Attack**](/2023/ML07_2023-Transfer_Learning_Attack.md)
-- [**ML08:2023 Model Skewing**](/2023/ML08_2023-Model_Skewing.md)
-- [**ML09:2023 Output Integrity Attack**](/2023/ML09_2023-Output_Integrity_Attack.md)
-- [**ML10:2023 Neural Net Reprogramming**](/2023/ML10_2023-Neural_Net_Reprogramming.md)
+- [**ML01:2023 Adversarial Attack**](/docs/2023/ML01_2023-Adversarial_Attack.md)
+- [**ML02:2023 Data Poisoning Attack**](/docs/2023/ML02_2023-Data_Poisoning_Attack.md)
+- [**ML03:2023 Model Inversion Attack**](/docs/2023/ML03_2023-Model_Inversion_Attack.md)
+- [**ML04:2023 Membership Inference Attack**](/docs//2023/ML04_2023-Membership_Inference_Attack.md)
+- [**ML05:2023 Model Stealing**](/docs/2023/ML05_2023-Model_Stealing.md)
+- [**ML06:2023 Corrupted Packages**](/docs/2023/ML06_2023-Corrupted_Packages.md)
+- [**ML07:2023 Transfer Learning Attack**](/docs/2023/ML07_2023-Transfer_Learning_Attack.md)
+- [**ML08:2023 Model Skewing**](/docs/2023/ML08_2023-Model_Skewing.md)
+- [**ML09:2023 Output Integrity Attack**](/docs/2023/ML09_2023-Output_Integrity_Attack.md)
+- [**ML10:2023 Neural Net Reprogramming**](/docs/2023/ML10_2023-Neural_Net_Reprogramming.md)
 
 ## Communication
 
+- [Google Groups](https://groups.google.com/u/1/a/owasp.org/g/project-machine-learning-security-top-ten)
 - [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10
 - [Github Discussions](https://github.com/OWASP/www-project-machine-learning-security-top-10/discussions)
 - [Meeting Notes](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues?q=label%3Ameeting)
