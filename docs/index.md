@@ -1,40 +1,20 @@
----
-title: Introduction
-comments: false
----
+# Introduction
 
-::: {.callout-important}
+## Project Communication
 
-### Important
+- [OWASP Slack](https://owasp.org/slack/invite) #project-mlsec-top-10
+- [Github Discussions](https://github.com/OWASP/www-project-machine-learning-security-top-10/discussions)
+- [Meeting Notes](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues?q=label%3Ameeting)
 
-_The current version of this work is in draft and is being modified frequently.
-Please refer to the [project wiki](https://github.com/OWASP/www-project-machine-learning-security-top-10/wiki)
-for information on how to contribute and project release timelines._
+## Top 10 Machine Learning Security Risks
 
-:::
-
-## Overview
-
-The primary aim of of the OWASP Machine Learning Security Top 10 project is to
-deliver an overview of the top 10 security issues of machine learning systems.
-As such, a major goal of this project is to develop a high quality deliverable,
-reviewed by industry peers.
-
-## Target Audience
-
-The primary audience for the deliverables in this project are developers,
-machine learning engineering and operational practitioners, and application
-security experts. While each of these roles build, operate and secure machine
-learning systems, the content is not aimed to be exclusively at them. The
-content will aim to specify where appropriate the level of understanding
-required for specific technology domains.
-
-## Scope
-
-This project will provide an overview of the top 10 security issues of machine
-learning systems. Due to the rapid adoption of machine learning systems, there
-are related projects within OWASP and other organisations, that may have
-narrower or broader scope than this project. As an example, while adversarial
-attacks is a category of threats, this project will also cover non-adversarial
-scenarios, such as security hygiene of machine learning operational and
-engineering workflows.
+- [**ML01:2023 Adversarial Attack**](2023/ML01_2023-Adversarial_Attack.md)
+- [**ML02:2023 Data Poisoning Attack**](ML02_2023-Data_Poisoning_Attack.md)
+- [**ML03:2023 Model Inversion Attack**](ML03_2023-Model_Inversion_Attack.md)
+- [**ML04:2023 Membership Inference Attack**](ML04_2023-Membership_Inference_Attack.md)
+- [**ML05:2023 Model Stealing**](ML05_2023-Model_Stealing.md)
+- [**ML06:2023 Corrupted Packages**](ML06_2023-Corrupted_Packages.md)
+- [**ML07:2023 Transfer Learning Attack**](ML07_2023-Transfer_Learning_Attack.md)
+- [**ML08:2023 Model Skewing**](ML08_2023-Model_Skewing.md)
+- [**ML09:2023 Output Integrity Attack**](ML09_2023-Output_Integrity_Attack.md)
+- [**ML10:2023 Neural Net Reprogramming**](ML10_2023-Neural_Net_Reprogramming.md)
