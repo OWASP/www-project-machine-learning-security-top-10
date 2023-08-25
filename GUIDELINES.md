@@ -1,12 +1,12 @@
 # How different roles can use this document
 
 ## ML Engineer/Analyst
-The document can be used in the following ways
+The document can be used in the following ways:
    - Understand the vulnerabilities that can occur in ML models.
    - Implement the prevention strategies to mitigate the risks associated with each vulnerability listed in the document.
    - Use the sample attack scenarios to create tests to verify the resilience of models.
 ## Data Engineer
-The document can be used in the following ways
+The document can be used in the following ways:
    - Implement prevention strategies to ensure data integrity and security.
    - Use risk factors to assess the security of data pipelines and storage.
 ## MLOps
@@ -18,13 +18,13 @@ Document can be used to:
 The document can be used in the following ways:
    - Understand the vulnerabilities in order to write secure code for ML applications.
    - Implement prevention strategies in the development process to reduce security risks.
-## Pentester/Security Engineer:
+## Pentester/Security Engineer
 The document can be used in the following ways:
    - Use the document to design and perform penetration tests on ML systems.
    - Use prevention strategies to recommend security improvements.
 - Use risk factors and threat agents to perform threat modelling of ML systems.
-## CISO:
-The document can be used in the following ways
+## CISO
+The document can be used in the following ways:
    - Source for developing comprehensive security policies and strategies for securing ML systems.
    - Guide the organisation's security practices and policies for the secure use of ML.
    - Use risk factors to assess the organisation's overall security posture with respect to ML systems.
