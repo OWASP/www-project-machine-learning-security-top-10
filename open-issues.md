@@ -1,18 +1,5 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
-# [\#101 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/101) `open`: guidelines draft
-
-#### <img src="https://avatars.githubusercontent.com/u/64902909?v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-08-25 14:38](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/101):
-
-This PR is related to this issue: https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/43
-
-I haven't created Venn's diagram, as I am not sure how should it look, but it's a draft proposition of GUIDELINES document. Looking for feedback :)
-
-
-
-
--------------------------------------------------------------------------------
-
 # [\#99 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/99) `open`: feat(rendering): make PDF output from Markdown files more presentable
 **Labels**: `documentation`, `enhancement`, `help wanted`
 
