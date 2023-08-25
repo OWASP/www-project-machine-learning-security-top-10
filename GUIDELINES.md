@@ -34,8 +34,8 @@ Document can be used in the following ways:
 This work overlaps with other projects that are run by the OWASP foundation and also work that was done by other organizations. It may be not suitable for your needs, especially if:
 - you are looking for Large Language Models security reference (then check OWASP Top10 for LLM [here](https://owasp.org/www-project-top-10-for-large-language-model-applications/)) 
 - you are working with areas such as ethics of AI, sustainability of AI etc. 
-- you are looking for risk assessment framework or complete threat model for AI/ML systems (then check i.e. [AI RMF by NIST] (https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF))
-- you are looking for real life vulnerabilities in AI/ML systems (check our RELATED.md document for more details) 
+- you are looking for risk assessment framework or complete threat model for AI/ML systems (then check i.e. [AI RMF by NIST](https://airc.nist.gov/AI_RMF_Knowledge_Base/AI_RMF))
+- you are looking for real life vulnerabilities in AI/ML systems (check our [RELATED](RELATED.md) document for more details) 
 
 Of course, this document may be helpful to you, but if you are looking for something to help you solve the task listed above, it is worth checking out these documents.
 
