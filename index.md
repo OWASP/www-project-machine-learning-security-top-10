@@ -14,15 +14,17 @@ auto-migrated: 0
 ### 📌 _**Important Information**_
 
 _The current version of this work is in draft and is being modified frequently.
-Please refer to the [project wiki](https://github.com/OWASP/www-project-machine-learning-security-top-10/wiki) for information on how to contribute and project release timelines._
+Please refer to the
+[project wiki](https://github.com/OWASP/www-project-machine-learning-security-top-10/wiki)
+for information on how to contribute and project release timelines._
 
 ## Overview
 
 Welcome to the repository for the OWASP Machine Learning Security Top 10
-project!
-The primary aim of the OWASP Machine Learning Security Top 10 project is to
-deliver an overview of the top 10 security issues of machine learning systems.
-More information on the project scope and target audience is available in our
+project! The primary aim of the OWASP Machine Learning Security Top 10 project
+is to deliver an overview of the top 10 security issues of machine learning
+systems. More information on the project scope and target audience is available
+in our
 [project working group charter](https://owasp.org/www-project-machine-learning-security-top-10#div-charter)
 
 ## Top 10 Machine Learning Security Risks
@@ -36,7 +38,7 @@ More information on the project scope and target audience is available in our
 - [**ML07:2023 Transfer Learning Attack**](/docs/ML07_2023-Transfer_Learning_Attack.md)
 - [**ML08:2023 Model Skewing**](/docs/ML08_2023-Model_Skewing.md)
 - [**ML09:2023 Output Integrity Attack**](/docs/ML09_2023-Output_Integrity_Attack.md)
-- [**ML10:2023 Neural Net Reprogramming**](/docs/ML10_2023-Neural_Net_Reprogramming.md)
+- [**ML10:2023 Model Poisoning**](/docs/ML10_2023-Model_Poisoning.md)
 
 ## Communication
 

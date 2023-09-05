@@ -7,7 +7,7 @@ auto-migrated: 0
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 10
-title: ML10:2023 Neural Net Reprogramming
+title: ML10:2023 Model Poisoning
 lang: en
 tags:
   [
@@ -24,17 +24,17 @@ technical: 3
 
 ## Description
 
-Neural net reprogramming attacks occur when an attacker manipulates the model\'s
+Model poisoning attacks occur when an attacker manipulates the model\'s
 parameters to cause it to behave in an undesirable way.
 
 ## How to Prevent
 
 **Regularisation:** Adding regularisation techniques like L1 or L2
 regularization to the loss function helps to prevent overfitting and reduce the
-chance of neural net reprogramming attacks.
+chance of model poisoning attacks.
 
 **Robust Model Design:** Designing models with robust architectures and
-activation functions can help reduce the chances of successful reprogramming
+activation functions can help reduce the chances of successful model poisoning
 attacks.
 
 **Cryptographic Techniques:** Cryptographic techniques can be used to secure the
@@ -54,7 +54,7 @@ the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Financial gain through neural net reprogramming {#scenario1}
+### Scenario \#1: Financial gain through model poisoning {#scenario1}
 
 Consider a scenario where a bank is using a machine learning model to identify
 handwritten characters on cheques to automate their clearing process. The model
@@ -62,13 +62,12 @@ has been trained on a large dataset of handwritten characters, and it has been
 designed to accurately identify the characters based on specific parameters such
 as size, shape, slant, and spacing.
 
-An attacker who wants to exploit the Neural Net Reprogramming attack may
-manipulate the parameters of the model by altering the images in the training
-dataset or directly modifying the parameters in the model. This can result in
-the model being reprogrammed to identify characters differently. For example,
-the attacker could change the parameters so that the model identifies the
-character "5" as the character "2", leading to incorrect amounts being
-processed.
+An attacker who wants to poison a machine learning model may manipulate the
+parameters of the model by altering the images in the training dataset or
+directly modifying the parameters in the model. This can result in the model
+being reprogrammed to identify characters differently. For example, the attacker
+could change the parameters so that the model identifies the character "5" as
+the character "2", leading to incorrect amounts being processed.
 
 The attacker can exploit this vulnerability by introducing forged cheques into
 the clearing process, which the model will process as valid due to the
