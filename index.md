@@ -29,7 +29,7 @@ in our
 
 ## Top 10 Machine Learning Security Risks
 
-- [**ML01:2023 Adversarial Attack**](/docs/ML01_2023-Adversarial_Attack.md)
+- [**ML01:2023 Input Manipulation Attack**](/docs/ML01_2023-Input_Manipulation_Attack.md)
 - [**ML02:2023 Data Poisoning Attack**](/docs/ML02_2023-Data_Poisoning_Attack.md)
 - [**ML03:2023 Model Inversion Attack**](/docs/ML03_2023-Model_Inversion_Attack.md)
 - [**ML04:2023 Membership Inference Attack**](/docs/ML04_2023-Membership_Inference_Attack.md)
