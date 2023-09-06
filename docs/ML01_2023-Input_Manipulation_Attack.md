@@ -24,14 +24,15 @@ technical: 5
 
 ## Description
 
-Input Manipulation Attacks present under the umbrella term – Adversarial attacks are a type of attack in which an attacker deliberately
-alters input data to mislead the model.
+Input Manipulation Attacks is an umbrella term, which include Adversarial
+Attacks, a type of attack in which an attacker deliberately alters input data to
+mislead the model.
 
 ## How to Prevent
 
-**Adversarial training:** One approach to defending against input manipulation attack
-is to train the model on adversarial examples. This can help the model become
-more robust to attacks and reduce its susceptibility to being misled.
+**Adversarial training:** One approach to defending against input manipulation
+attack is to train the model on adversarial examples. This can help the model
+become more robust to attacks and reduce its susceptibility to being misled.
 
 **Robust models:** Another approach is to use models that are designed to be
 robust against manipulative attacks, such as adversarial training or models that
@@ -55,7 +56,7 @@ the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Image classification {#scenario1}
+### Scenario \#1: Input manipulation of Image Classification systems {#scenario1}
 
 A deep learning model is trained to classify images into different categories,
 such as dogs and cats. An attacker manipulates the original image that is very
@@ -64,16 +65,16 @@ perturbations that cause the model to misclassify it as a dog. When the model is
 deployed in a real-world setting, the attacker can use the manipulated image to
 bypass security measures or cause harm to the system.
 
-### Scenario \#2: Network intrusion detection
+### Scenario \#2: Manipulation of network traffic to evade intrusion detection systems {#scenario2}
 
 A deep learning model is trained to detect intrusions in a network. An attacker
-manipulates network traffic by carefully crafting packets in such a way
-that they will evade the model\'s intrusion detection system. The attacker can
-alter the features of the network traffic, such as the source IP address,
-destination IP address, or payload, in such a way that they are not detected by
-the intrusion detection system. For example, the attacker may hide their source
-IP address behind a proxy server or encrypt the payload of their network
-traffic. This type of attack can have serious consequences, as it can lead to
-data theft, system compromise, or other forms of damage.
+manipulates network traffic by carefully crafting packets in such a way that
+they will evade the model\'s intrusion detection system. The attacker can alter
+the features of the network traffic, such as the source IP address, destination
+IP address, or payload, in such a way that they are not detected by the
+intrusion detection system. For example, the attacker may hide their source IP
+address behind a proxy server or encrypt the payload of their network traffic.
+This type of attack can have serious consequences, as it can lead to data theft,
+system compromise, or other forms of damage.
 
 ## References
