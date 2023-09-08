@@ -1,5 +1,43 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#105 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/105) `open`: refactor: rename 'Corrupted packages' to 'AI supply chain attacks'
+**Labels**: `documentation`, `discussions/mltop10`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-09-05 09:31](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/105):
+
+as per feedback in #85
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#102 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/102) `open`: [Fortnightly] Working Group Meeting - 2023-Aug-31
+**Labels**: `meeting`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-08-31 04:47](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/102):
+
+## Current agenda
+
+1. General project status [v0.3 - in progress](https://github.com/OWASP/www-project-machine-learning-security-top-10/milestone/3)
+2. Contributions and [current help wanted](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+3. Introductions (for new contributors)
+
+## Discussions
+
+* [Join the OWASP Slack group](https://owasp.org/slack/invite) and the [#project-mlsec-top-10 channel](https://owasp.slack.com/archives/C04PESBUWRZ)
+* [Github Discussions](https://github.com/OWASP/www-project-machine-learning-security-top-10/discussions)
+
+## Calendar Event
+[Download calendar event (ICS)](https://calendar.google.com/calendar/ical/c_f818ec1e3dea1d4c80cb0f872566eccb82c5df9cc1161f3077f93eafc47889dc%40group.calendar.google.com/public/basic.ics)
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#99 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/99) `open`: feat(rendering): make PDF output from Markdown files more presentable
 **Labels**: `documentation`, `enhancement`, `help wanted`
 
@@ -15,143 +53,6 @@ Currently a manual process is run for the https://github.com/mltop10-info/mltop1
 The rendering for PDF is currently using the default method of LaTeX - example at: https://github.com/mltop10-info/mltop10.info/blob/main/docs/OWASP-Machine-Learning-Security-Top-10.pdf
 
 Quarto has a lot of formatting options for generating PDF and this needs to be explored to make the PDF and ePUB formats look more presentable.
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#92 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/92) `open`: refactor: rename "neural net reprogramming" to "model poisoning"
-**Labels**: `documentation`, `discussions/mltop10`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-08-20 19:39](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/92):
-
-as per feedback from #87
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-08-20 19:44](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/92#issuecomment-1685375350):
-
-as per comment in #87:
-
-*Corrupting/manipulating model parameters is a general threat, referred to as model poisoning, and is not restricted to neural networks.*
-
-
--------------------------------------------------------------------------------
-
-# [\#89 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/89) `open`: [FEEDBACK]: Consider excessive agency
-**Labels**: `issues/general`, `issues/triage`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-08-19 14:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/89):
-
-### Type
-
-General Feedback
-
-### What would you like to report?
-
-The LLM top 10 mentions excessive agency, because it is important to limit privileges /autonomy / have oversight over LLM's. This is a general AI problem. 
-One could argue whether this is a security risk, and I would argue that it is, because just as AI models are unpredictable, they may also have been manipulated. 
-I believe the ML top 10 also needs Excessive agency.
-
-### Code of Conduct
-
-- [X] I agree to follow this project's Code of Conduct
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#88 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/88) `open`: [FEEDBACK]: Leaking pipeline is missing
-**Labels**: `issues/general`, `issues/triage`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-08-19 14:07](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/88):
-
-### Type
-
-General Feedback
-
-### What would you like to report?
-
-The risk of leaking training data or other confidentiality issues of the AI pipeline (code, model parameters) are missing. 
-
-### Code of Conduct
-
-- [X] I agree to follow this project's Code of Conduct
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#86 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/86) `open`: [FEEDBACK]: Integrate model skewing into data poisoning
-**Labels**: `issues/general`, `issues/triage`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-08-19 14:04](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/86):
-
-### Type
-
-Suggestions for Improvement
-
-### What would you like to report?
-
-[FEEDBACK]: Model skewing requires altering training data, making it a form of data poisoning. Therefore it is probably better to integrate the two threats.
-
-### Code of Conduct
-
-- [X] I agree to follow this project's Code of Conduct
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#85 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/85) `open`: [FEEDBACK]: Rename 'Corrupted packages' to 'AI supply chain attacks'
-**Labels**: `issues/general`, `issues/triage`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-08-19 14:02](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/85):
-
-### Type
-
-Suggestions for Improvement
-
-### What would you like to report?
-
-I believe 'Packages' to be a too specific term for the problem of supply chain attacks. Calling it 'supply chain attacks' will make the reader aware of the risk that any external component in the AI pipeline can be manipulated. 
-Also, add 'data' as a potential supply chain risk, and refer to 'data poisoning' for that, and also add 'model', referring to the transfer learning attack.
-
-### Code of Conduct
-
-- [X] I agree to follow this project's Code of Conduct
-
-
-
-
--------------------------------------------------------------------------------
-
-# [\#84 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/84) `open`: [FEEDBACK]: Rename adversarial attack to something less ambiguous
-**Labels**: `issues/general`, `issues/triage`
-
-
-#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-08-19 13:58](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/84):
-
-### Type
-
-Suggestions for Improvement
-
-### What would you like to report?
-
-The term adversarial attack usually has a broader definition than the intention of ML01. For example it usually includes data poisoning. 
-The intention seems to refer to what is more often called 'evasion attack'. The problem with that term is that it usually means small changes to the input. This is why in the AI guide we used the term 'input manipulation', which is more clear.
-
-
-### Code of Conduct
-
-- [X] I agree to follow this project's Code of Conduct
 
 
 
