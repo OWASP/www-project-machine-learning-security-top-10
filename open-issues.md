@@ -1,5 +1,16 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#113 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/113) `open`: Model stealing through interaction is not mentioned
+
+#### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-09-08 21:44](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/113):
+
+The current model stealing only describes the model being stolen through parameters, but the model can also be stolen by presenting inputs, capturing the output and using those combinations to train your own model. See AI guide
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#105 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/105) `open`: refactor: rename 'Corrupted packages' to 'AI supply chain attacks'
 **Labels**: `documentation`, `discussions/mltop10`
 
