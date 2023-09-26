@@ -1,5 +1,76 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#116 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/116) `open`: [FEEDBACK]: Make ML06 more precise and with more Attack Scenarios
+**Labels**: `issues/general`, `issues/triage`, `discussions/mltop10`, `discussions/feedback`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/64902909?u=0d09ff56fe837eafe74b3410ec0eb7dc48fe7d21&v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-09-26 13:46](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/116):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+**Re-thinking and re-writing ML06 - corrupted packages**
+
+The description of ML05 is quite limited given how complicated the software supply chains are, especially those related to ML-using software. 
+
+In the summary of the vulnerability it is written: _This type of attack can be particularly dangerous as it can go unnoticed for a long time, since the victim may not realize that the package they are using has been compromised. The attacker's malicious code could be used to steal sensitive information, modify results, or even cause the machine learning model to fail._. Meanwhile, in the Detectability section in Risk Factors it says, that it's easy to detect this kind of vulns. 
+
+What is more, there's nothing said about countermeasures such as SBOM/MLBOM etc. in the description of this vulnerability. In my opinion that should be included. 
+
+There's plenty of resources that should be analyzed and used for the description of this specific vulnerability: 
+- [CycloneDX ML-BOM](https://cyclonedx.org/capabilities/mlbom/)
+- [SPDX AI](https://spdx.dev/learn/areas-of-interest/ai/)
+- [this article](https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/)
+- [another article](https://stiankri.substack.com/p/distribution-confusion-in-pypi)
+- [or this paper](https://www.researchgate.net/publication/372761501_Assessing_the_Vulnerabilities_of_the_Open-Source_Artificial_Intelligence_AI_Landscape_A_Large-Scale_Analysis_of_the_Hugging_Face_Platform)
+
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#114 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/114) `open`: [Fortnightly] Working Group Meeting - 2023-Sep-14
+**Labels**: `meeting`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-09-13 18:22](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/114):
+
+## Current agenda
+
+1. General project status [v0.3 - in progress](https://github.com/OWASP/www-project-machine-learning-security-top-10/milestone/3)
+2. Notable PRs completed since last meeting:
+  - #104 
+  - #110 
+3. Notable discussions:
+ - #107
+ - #108
+ - #109
+ 4. Meetings:
+  - WG meeting will change forward a few hours to accomodate EU morning time zones
+5. Contributions and [current help wanted](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+6. Introductions (for new contributors)
+
+## Discussions
+
+* [Join the OWASP Slack group](https://owasp.org/slack/invite) and the [#project-mlsec-top-10 channel](https://owasp.slack.com/archives/C04PESBUWRZ)
+* [Github Discussions](https://github.com/OWASP/www-project-machine-learning-security-top-10/discussions)
+
+## Calendar Event
+[Download calendar event (ICS)](https://calendar.google.com/calendar/ical/c_f818ec1e3dea1d4c80cb0f872566eccb82c5df9cc1161f3077f93eafc47889dc%40group.calendar.google.com/public/basic.ics)
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#113 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/113) `open`: Model stealing through interaction is not mentioned
 
 #### <img src="https://avatars.githubusercontent.com/u/796794?v=4" width="50">[robvanderveer](https://github.com/robvanderveer) opened issue at [2023-09-08 21:44](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/113):
