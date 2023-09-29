@@ -4,8 +4,8 @@ This project's content is currently in draft release
 
 Website: [https://mltop10.info](https://mltop10.info)\
 Edition: 2023\
-Version:
-0.2 Draft [Source Code](https://github.com/OWASP/www-project-machine-learning-security-top-10/tree/master/docs/2023)
+Version: 0.3 Draft
+[Source Code](https://github.com/OWASP/www-project-machine-learning-security-top-10/tree/master/docs/2023)
 ([Download PDF](https://mltop10.info/OWASP-Machine-Learning-Security-Top-10.pdf)\)
 Release Notes:
 [Changelog](https://github.com/OWASP/www-project-machine-learning-security-top-10/releases)
