@@ -7,7 +7,7 @@ auto-migrated: 0
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML06:2023 Corrupted Packages
+title: ML06:2023 AI Supply Chain Attacks
 lang: en
 tags:
   [
@@ -24,8 +24,9 @@ technical: 4
 
 ## Description
 
-Corrupted packages attacks occur when an attacker modifies or replaces a machine
-learning library or model that is used by a system.
+AI Supply Chain Attacks occur when an attacker modifies or replaces a machine
+learning library or model that is used by a system. This can also include the
+data associated with the machine learning models.
 
 ## How to Prevent
 
@@ -51,9 +52,8 @@ libraries used in a project to detect any malicious code.
 Install to verify the authenticity and integrity of packages before
 installation.
 
-**Educate Developers:** Educate developers on the risks associated with
-Corrupted Packages Attacks and the importance of verifying packages before
-installation.
+**Educate Developers:** Educate developers on the risks associated with AI Suppy
+Chain Attacks and the importance of verifying packages before installation.
 
 ## Risk Factors
 
