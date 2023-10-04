@@ -1,0 +1,116 @@
+---
+
+excalidraw-plugin: parsed
+tags: [excalidraw]
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Text Elements
+Uses in every day life
+- recommendation systems (online retail, social media, streaming platforms)
+- facial recognition (law enforcement, airport security, consumer gadgets)
+- digital assistants
+- gaming (non-playable characters, augmented reality apps)
+
+
+Uses in security practitioner's life
+- endpoint detection (malicious binaries, anomalous system behaviour)
+- network security (network traffic analysis, denial-of-service protection, intrusion detection)
+- application security (application/API traffic learning, attack pattern signatures)
+- system observability (telemetry analysis, operating system exploits)
+ ^uuip14Fn
+
+%%
+# Drawing
+```compressed-json
+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
+
+KgA=
+```
+%%
