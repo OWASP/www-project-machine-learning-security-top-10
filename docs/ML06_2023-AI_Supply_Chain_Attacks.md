@@ -58,17 +58,19 @@ Chain Attacks and the importance of verifying packages before installation.
 ## Risk Factors
 
 |                                                     Threat Agents/Attack Vectors                                                      |           Security Weakness            |                                       Impact                                       |
-| :-----------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------: | :--------------------------------------------------------------------------------: |
-|                    Exploitability: 5 (Easy) <br><br> _ML Application Specific: 5_ <br> _ML Operations Specific: 3_                    |        Detectability: 5 (Easy)         |                              Technical: 4 (Moderate)                               |
-| Threat Actor: Malicious attacker. <br><br> Attack Vector: Modifying code of open-source package used by the machine learning project. | Relying on untrusted third-party code. | Compromise of the machine learning project and potential harm to the organization. |
+| :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------ | :-------------------------------------------------------------------------------- |
+|                    Exploitability: 5 (Easy) <br/><br/> _ML Application Specific: 5_ <br/> _ML Operations Specific: 3_                    |        Detectability: 5 (Easy)         |                              Technical: 4 (Moderate)                               |
+| Threat Actor: Malicious attacker. <br/><br/> Attack Vector: Modifying code of open-source package used by the machine learning project. | Relying on untrusted third-party code. | Compromise of the machine learning project and potential harm to the organization. |
+
+: {.striped .hover .bordered .responsive }
 
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml06_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Attack on a machine learning project in an organization {#scenario1}
+### Scenario \#1: Attack on a machine learning project in an organization {#ml06_scenario1}
 
 A malicious attacker wants to compromise a machine learning project being
 developed by a large organization. The attacker knows that the project relies on

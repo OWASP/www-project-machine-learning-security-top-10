@@ -56,17 +56,19 @@ information.
 ## Risk Factors
 
 |                                                                                                                           Threat Agents/Attack Vectors                                                                                                                            |                                                                                                Security Weakness                                                                                                |                                                                                            Impact                                                                                             |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                        Exploitability: 4 (Moderate) <br><br> _ML Application Specific: 5_ <br> _ML Operations Specific: 3_                                                                                        |                                                                                           Detectability: 3 (Moderate)                                                                                           |                                                                                    Technical: 4 (Moderate)                                                                                    |
-| Threat Actors: Hackers or malicious actors who have access to the data and the model. <br> Insiders who have malicious intent or are bribed to interfere with the data. <br><br> Attact Vectors: Unsecured data transmission channels that allow unauthorized access to the data. | Lack of proper data access controls. <br><br> Lack of proper data validation and sanitization techniques. <br><br> Lack of proper data encryption. <br><br> Lack of proper data backup and recovery techniques. | Unreliable or incorrect model predictions. <br><br> Loss of confidentiality and privacy of sensitive data. <br><br> Legal and regulatory compliance violations. <br><br> Reputational damage. |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                        Exploitability: 4 (Moderate) <br/><br/> _ML Application Specific: 5_ <br/> _ML Operations Specific: 3_                                                                                        |                                                                                           Detectability: 3 (Moderate)                                                                                           |                                                                                    Technical: 4 (Moderate)                                                                                    |
+| Threat Actors: Hackers or malicious actors who have access to the data and the model. <br/> Insiders who have malicious intent or are bribed to interfere with the data. <br/><br/> Attact Vectors: Unsecured data transmission channels that allow unauthorized access to the data. | Lack of proper data access controls. <br/><br/> Lack of proper data validation and sanitization techniques. <br/><br/> Lack of proper data encryption. <br/><br/> Lack of proper data backup and recovery techniques. | Unreliable or incorrect model predictions. <br/><br/> Loss of confidentiality and privacy of sensitive data. <br/><br/> Legal and regulatory compliance violations. <br/><br/> Reputational damage. |
+
+: {.striped .hover .bordered .responsive }
 
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml04_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Inferencing financial data from a machine learning model {#scenario1}
+### Scenario \#1: Inferencing financial data from a machine learning model {#ml04_scenario1}
 
 A malicious attacker wants to gain access to sensitive financial information of
 individuals. They do this by training a machine learning model on a dataset of
@@ -81,4 +83,4 @@ used this model to query whether or not a particular individual\'s record was
 included in the training data, allowing them to infer sensitive financial
 information.
 
-**References:**
+## References:

@@ -63,17 +63,19 @@ early on.
 ## Risk Factors
 
 |                                                                      Threat Agents/Attack Vectors                                                                      |                             Security Weakness                             |                                                                 Impact                                                                 |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
-|                                  Exploitability: 3 (Moderate) <br><br> _ML Application Specific: 4_ <br> _ML Operations Specific: 3_                                   |                       Detectability: 2 (Difficult)                        |                                                        Technical: 4 (Moderate)                                                         |
-| Threat Agent: Attacker who has access to the training data used for the model. <br><br> Attack Vector: The attacker injects malicious data into the training data set. | Lack of data validation and insufficient monitoring of the training data. | The model will make incorrect predictions based on the poisoned data, leading to false decisions and potentially serious consequences. |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+|                                  Exploitability: 3 (Moderate) <br/><br/> _ML Application Specific: 4_ <br/> _ML Operations Specific: 3_                                   |                       Detectability: 2 (Difficult)                        |                                                        Technical: 4 (Moderate)                                                         |
+| Threat Agent: Attacker who has access to the training data used for the model. <br/><br/> Attack Vector: The attacker injects malicious data into the training data set. | Lack of data validation and insufficient monitoring of the training data. | The model will make incorrect predictions based on the poisoned data, leading to false decisions and potentially serious consequences. |
+
+: {.striped .hover .bordered .responsive }
 
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml02_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Training a spam classifier {#scenario1}
+### Scenario \#1: Training a spam classifier {#ml02_scenario1}
 
 An attacker poisons the training data for a deep learning model that classifies
 emails as spam or not spam. The attacker executed this attack by injecting the
