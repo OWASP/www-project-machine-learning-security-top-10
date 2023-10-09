@@ -32,6 +32,7 @@ Thanks goes to these wonderful people
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/msnishanth9001"><img src="https://avatars.githubusercontent.com/u/49409979?v=4?s=100" width="100px;" alt="M S Nishanth"/><br /><sub><b>M S Nishanth</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=msnishanth9001" title="Code">💻</a> <a href="#question-msnishanth9001" title="Answering Questions">💬</a></td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/kingthorin"><img src="https://avatars.githubusercontent.com/u/7570458?v=4?s=100" width="100px;" alt="Rick M"/><br /><sub><b>Rick M</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=kingthorin" title="Code">💻</a></td>
       <td align="center" valign="top" width="11.11%"><a href="https://owasp.org/"><img src="https://avatars.githubusercontent.com/u/36673698?v=4?s=100" width="100px;" alt="Harold Blankenship"/><br /><sub><b>Harold Blankenship</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=hblankenship" title="Code">💻</a></td>
+    </tr>
     <tr class="blank_row">
     <td colspan="5"></td>
     </tr>
@@ -51,7 +52,7 @@ Thanks goes to these wonderful people
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/RiccardoBiosas"><img src="https://avatars.githubusercontent.com/u/65150720?v=4?s=100" width="100px;" alt="RiccardoBiosas"/><br /><sub><b>RiccardoBiosas</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=RiccardoBiosas" title="Code">💻</a></td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/aryanxk02"><img src="https://avatars.githubusercontent.com/u/59761275?v=4?s=100" width="100px;" alt="Aryan Kenchappagol"/><br /><sub><b>Aryan Kenchappagol</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=aryanxk02" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/mik0w"><img src="https://avatars.githubusercontent.com/u/64902909?v=4?s=100" width="100px;" alt="Mikołaj Kowalczyk"/><br /><sub><b>Mikołaj Kowalczyk</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=mik0w" title="Code">💻</a> <a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=mik0w" title="Documentation">📖</a> <a href="#question-mik0w" title="Answering Questions">💬</a> <a href="#promotion-mik0w" title="Promotion">📣</a></td>
-    </tr>>
+    </tr>
   </tbody>
 </table>
 

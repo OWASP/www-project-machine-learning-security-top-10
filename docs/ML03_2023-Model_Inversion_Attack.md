@@ -57,17 +57,19 @@ predictions.
 ## Risk Factors
 
 |                                                                    Threat Agents/Attack Vectors                                                                     |                                Security Weakness                                |                              Impact                               |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------------: |
-|                                 Exploitability: 4 (Moderate) <br><br> _ML Application Specific: 5_ <br> _ML Operations Specific: 3_                                 |                          Detectability: 2 (Difficult)                           |                      Technical: 4 (Moderate)                      |
-| Threat Agents: Attackers who have access to the model and input data. <br><br> Attack Vectors: Submitting an image to the model and analyzing the model's response. | Model's output can be used to infer sensitive information about the input data. | Confidential information about the input data can be compromised. |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- | :--------------------------------------------------------------- |
+|                                 Exploitability: 4 (Moderate) <br/><br/> _ML Application Specific: 5_ <br/> _ML Operations Specific: 3_                                 |                          Detectability: 2 (Difficult)                           |                      Technical: 4 (Moderate)                      |
+| Threat Agents: Attackers who have access to the model and input data. <br/><br/> Attack Vectors: Submitting an image to the model and analyzing the model's response. | Model's output can be used to infer sensitive information about the input data. | Confidential information about the input data can be compromised. |
+
+: {.striped .hover .bordered .responsive }
 
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml03_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Stealing personal information from a face recognition model {#scenario1}
+### Scenario \#1: Stealing personal information from a face recognition model {#ml03_scenario1}
 
 An attacker trains a deep learning model to perform face recognition. They then
 use this model to perform a model inversion attack on a different face

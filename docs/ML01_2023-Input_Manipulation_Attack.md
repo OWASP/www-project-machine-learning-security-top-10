@@ -46,17 +46,19 @@ and rejecting inputs that are likely to be malicious.
 ## Risk Factors
 
 | Threat Agents/Attack Vectors                                                                                                                                                                  |                                                               Security Weakness                                                                |                                                            Impact                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: |
-| Exploitability: 5 (Easy) <br><br> _ML Application Specific: 4_ <br> _ML Operations Specific: 3_                                                                                               | Detectability: 3 (Moderate) <br><br> _The manipulated image may not be noticeable to the naked eye, making it difficult to detect the attack._ | Technical: 5 (Difficult) <br><br> _The attack requires technical knowledge of deep learning and image processing techniques._ |
-| Threat Agent: Attacker with knowledge of deep learning and image processing techniques. <br><br> Attack Vector: Deliberately crafted manipulated image that is similar to a legitimate image. |                               Vulnerability in the deep learning model's ability to classify images accurately.                                |                       Misclassification of the image, leading to security bypass or harm to the system.                       |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| Exploitability: 5 (Easy) <br/><br/> _ML Application Specific: 4_ <br/> _ML Operations Specific: 3_                                                                                               | Detectability: 3 (Moderate) <br/><br/> _The manipulated image may not be noticeable to the naked eye, making it difficult to detect the attack._ | Technical: 5 (Difficult) <br/><br/> _The attack requires technical knowledge of deep learning and image processing techniques._ |
+| Threat Agent: Attacker with knowledge of deep learning and image processing techniques. <br/><br/> Attack Vector: Deliberately crafted manipulated image that is similar to a legitimate image. |                               Vulnerability in the deep learning model's ability to classify images accurately.                                |                       Misclassification of the image, leading to security bypass or harm to the system.                       |
+
+: {.striped .hover .bordered .responsive }
 
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml01_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Input manipulation of Image Classification systems {#scenario1}
+### Scenario \#1: Input manipulation of Image Classification systems {#ml01_scenario1}
 
 A deep learning model is trained to classify images into different categories,
 such as dogs and cats. An attacker manipulates the original image that is very

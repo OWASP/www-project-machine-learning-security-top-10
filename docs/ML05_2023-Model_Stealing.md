@@ -58,17 +58,19 @@ access or steal the model.
 ## Risk Factors
 
 |                                                            Threat Agents/Attack Vectors                                                             |                                                         Security Weakness                                                         |                                                                                Impact                                                                                 |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                         Exploitability: 4 (Moderate) <br><br> _ML Application Specific: 4_ <br> _ML Operations Specific: 3_                         |                                                    Detectability: 3 (Moderate)                                                    |                                                                        Technical: 4 (Moderate)                                                                        |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                         Exploitability: 4 (Moderate) <br/><br/> _ML Application Specific: 4_ <br/> _ML Operations Specific: 3_                         |                                                    Detectability: 3 (Moderate)                                                    |                                                                        Technical: 4 (Moderate)                                                                        |
 | Threat Agent: This refers to the entity that carries out the attack, in this case, it is an attacker who wants to steal the machine learning model. | Unsecured model deployment: The unsecured deployment of the model makes it easier for the attacker to access and steal the model. | The impact of a model theft could be both on the confidentiality of the data used to train the model and the reputation of the organization that developed the model. |
 
+: {.striped .hover .bordered .responsive }
+
 It is important to note that this chart is only a sample based on
-[the scenario below](#scenario1) only. The actual risk assessment will depend on
+[the scenario below](#ml05_scenario1) only. The actual risk assessment will depend on
 the specific circumstances of each machine learning system.
 
 ## Example Attack Scenarios
 
-### Scenario \#1: Stealing a machine learning model from a competitor {#scenario1}
+### Scenario \#1: Stealing a machine learning model from a competitor {#ml05_scenario1}
 
 A malicious attacker is working for a competitor of a company that has developed
 a valuable machine learning model. The attacker wants to steal this model so

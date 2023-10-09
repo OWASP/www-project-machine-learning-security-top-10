@@ -1,0 +1,19 @@
+name: Push generated webpage to another repository
+on: push
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy files to another repository
+      uses: nkoppel/push-files-to-another-repository@v1.1.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.COPY_TOKEN }}
+      with:
+        source-files: docs/*
+        destination-username: 'msnishanth9001'
+        destination-repository: '/mltop10.info'
+        destination-branch: 'main'
+        destination-directory: ''
+        # Index.md should be same loc as _quarto.yml, hence
+        # posting all files to same loc as quarto conf file.
+        commit-email: 'msnishanth9001@gmail.com'
