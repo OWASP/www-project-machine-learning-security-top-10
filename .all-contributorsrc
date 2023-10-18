@@ -1,0 +1,117 @@
+{
+  "projectName": "www-project-machine-learning-security-top-10",
+  "projectOwner": "OWASP",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "CONTRIBUTORS.md",
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sagarbhure",
+      "name": "Sagar Bhure",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25385987?v=4",
+      "profile": "https://github.com/sagarbhure",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "question",
+        "content",
+        "research",
+        "promotion"
+      ]
+    },
+    {
+      "login": "shsingh",
+      "name": "Shain Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/412800?v=4",
+      "profile": "https://shain.io/",
+      "contributions": [
+        "code",
+        "doc",
+        "review",
+        "question",
+        "content",
+        "promotion",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "robvanderveer",
+      "name": "Rob van der Veer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/796794?v=4",
+      "profile": "https://github.com/robvanderveer",
+      "contributions": [
+        "review",
+        "code",
+        "doc",
+        "question",
+        "promotion"
+      ]
+    },
+    {
+      "login": "msnishanth9001",
+      "name": "M S Nishanth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49409979?v=4",
+      "profile": "https://github.com/msnishanth9001",
+      "contributions": [
+        "code",
+        "question"
+      ]
+    },
+    {
+      "login": "kingthorin",
+      "name": "Rick M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7570458?v=4",
+      "profile": "https://github.com/kingthorin",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hblankenship",
+      "name": "Harold Blankenship",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36673698?v=4",
+      "profile": "https://owasp.org/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RiccardoBiosas",
+      "name": "RiccardoBiosas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150720?v=4",
+      "profile": "https://github.com/RiccardoBiosas",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aryanxk02",
+      "name": "Aryan Kenchappagol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59761275?v=4",
+      "profile": "https://github.com/aryanxk02",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "mik0w",
+      "name": "Mikołaj Kowalczyk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64902909?v=4",
+      "profile": "https://github.com/mik0w",
+      "contributions": [
+        "code",
+        "doc",
+        "question",
+        "promotion"
+      ]
+    }
+  ],
+  "contributorsPerLine": 9
+}

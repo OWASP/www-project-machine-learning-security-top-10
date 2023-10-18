@@ -1,0 +1,113 @@
+---
+
+excalidraw-plugin: parsed
+tags: [excalidraw]
+
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
+
+
+# Text Elements
+Traditional techniques
+- credentials in code
+- software dependencies
+- web and API application threats
+- denial of service
+
+Threats specific to Machine Learning
+- malicious models
+- data poisoning
+- model theft
+- data extraction
+- model repurposing
+- model inference
+ ^omlGm01f
+
+Risks associated with Machine Learning Systems ^XC7V3ajX
+
+%%
+# Drawing
+```compressed-json
+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
+
+LkAA
+```
+%%
