@@ -1,13 +1,159 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
-# [\#159 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/159) `open`: chore: create issues for Top 10 owners and update CODEOWNERS
-**Labels**: `issues/admin`
+# [\#172 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/172) `open`: chore(admin): assign owner(s) for ML10 Model Poisoning
+**Labels**: `help wanted`, `documentation/risks`
 
 
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 05:27](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/159):
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:31](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/172):
 
-- [ ] Create issue for each Top 10 with a request for an owner
-- [ ] update CODEOWNERS with assigned owners
+- [ ] Assigned Lead Contributor for ML10
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML10 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#171 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/171) `open`: chore(admin): assign owner(s) for ML09 Output Integrity Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:30](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/171):
+
+- [ ] Assigned Lead Contributor for ML09
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML09 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#170 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/170) `open`: chore(admin): assign owner(s) for ML08 Model Skewing
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:29](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/170):
+
+- [ ] Assigned Lead Contributor for ML08
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML08 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#169 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/169) `open`: chore(admin): assign owner(s) for ML07 Transfer Learning Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:28](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/169):
+
+- [ ] Assigned Lead Contributor for ML07
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML07 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#168 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/168) `open`: chore(admin): assign owner(s) for ML06 AI Supply Chain Attacks
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:27](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/168):
+
+- [ ] Assigned Lead Contributor for ML06
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML06 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#167 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/167) `open`: chore(admin): assign owner(s) for ML05 Model Stealing
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:27](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/167):
+
+- [ ] Assigned Lead Contributor for ML05
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML05 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#166 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/166) `open`: chore(admin): assign owner(s) for ML04 Membership Inference Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:26](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/166):
+
+- [ ] Assigned Lead Contributor for ML04
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML04 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#165 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/165) `open`: chore(admin): assign owner(s) for ML03 Model Inversion Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:25](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/165):
+
+- [ ] Assigned Lead Contributor for ML03
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML03 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#164 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/164) `open`: chore(admin): assign owner(s) for ML02 Data Poisoning Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:24](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/164):
+
+- [ ] Assigned Lead Contributor for ML02
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML02 will also be assigned to the cheatsheet
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#163 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163) `open`: chore(admin): assign owner(s) for ML01 Input Validation Attack
+**Labels**: `help wanted`, `documentation/risks`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:21](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163):
+
+- [ ] Assigned Lead Contributor for ML01
+- [ ] Update CODEOWNERS with contributor details
+
+Ideally the Lead Contributor for ML01 will also be assigned to the cheatsheet
 
 
 
@@ -502,6 +648,15 @@ Is the intent of this PR to mirror or to fix formatting issues? Or both?
 At this stage the repo for https://mltop10.info is done manually because it needs a manual run of 'quarto' to generate the files. 
 
 The rendering of EPUB and PDF at this stage is more critical then worrying about the mirroring portion IMHO.
+
+#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-30 06:46](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784575634):
+
+Hi @shsingh can you please assign me this issue.
+
+The intent is to do both fix mirror and formatting issues. Once the formatting issue is fixed the ePUB generation will be fixed.
+
+the following WF PR will publish ePUB and PDF.
+- https://github.com/mltop10-info/mltop10.info/pull/4
 
 
 -------------------------------------------------------------------------------
