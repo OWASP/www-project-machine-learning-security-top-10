@@ -19,6 +19,9 @@ Thanks goes to these wonderful people
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/aryanxk02"><img src="https://avatars.githubusercontent.com/u/59761275?v=4?s=100" width="100px;" alt="Aryan Kenchappagol"/><br /><sub><b>Aryan Kenchappagol</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=aryanxk02" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="11.11%"><a href="https://github.com/mik0w"><img src="https://avatars.githubusercontent.com/u/64902909?v=4?s=100" width="100px;" alt="Mikołaj Kowalczyk"/><br /><sub><b>Mikołaj Kowalczyk</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=mik0w" title="Code">💻</a> <a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=mik0w" title="Documentation">📖</a> <a href="#question-mik0w" title="Answering Questions">💬</a> <a href="#promotion-mik0w" title="Promotion">📣</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="11.11%"><a href="https://github.com/adityoari"><img src="https://avatars.githubusercontent.com/u/28642576?v=4?s=100" width="100px;" alt="Adit Nugroho"/><br /><sub><b>Adit Nugroho</b></sub></a><br /><a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=adityoari" title="Code">💻</a> <a href="https://github.com/OWASP/www-project-machine-learning-security-top-10/commits?author=adityoari" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
 </table>
 

@@ -111,6 +111,16 @@
         "question",
         "promotion"
       ]
+    },
+    {
+      "login": "adityoari",
+      "name": "Adit Nugroho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28642576?v=4",
+      "profile": "https://github.com/adityoari",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 9
