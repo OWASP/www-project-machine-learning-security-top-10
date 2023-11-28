@@ -1,5 +1,87 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#189 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189) `open`: [FEEDBACK]: Include a page with a brief descriptions of each of the vulnerabilities
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/64902909?u=756899683e78c4e336cc1e8a6b7584bc6b508200&v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-11-23 12:08](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+For example in Top10 for LLM there's this page with a summary of each of the vulnerabilities, which I think would be pretty useful to have in Top10 for ML as well. 
+
+Sometimes  when you e.g. work on some slides for a presentation, you just want to get a short summary of each of the vulnerabilities. In my opinion including such a page in Top10 for ML would be an improvement: 
+
+![summary](https://github.com/OWASP/www-project-machine-learning-security-top-10/assets/64902909/0bc2b1c8-43a0-4a5d-b549-71cf83e897c1)
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#188 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188) `open`: [FEEDBACK]: Include MLOps vulnerabilties somewhere in the Supply Chain Security category 
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/64902909?u=756899683e78c4e336cc1e8a6b7584bc6b508200&v=4" width="50">[mik0w](https://github.com/mik0w) opened issue at [2023-11-17 10:26](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+**Context**
+One of the parts of the supply chain in modern ML systems is MLOps software - like i.e. MLFlow, Prefect etc. Those systems are vulnerable to classic web based attacks and they seem to be "misconfured by default". I've described it here: https://hackstery.com/2023/10/13/no-one-is-prefect-is-your-mlops-infrastructure-leaking-secrets/ or here: https://github.com/logspace-ai/langflow/issues/1145 
+
+**Suggestion for improvement**
+I'd suggest including MLOps-related vulnerabilities in the ML06 (or maybe in some other categories as well? I am open for suggestions). 
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#187 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187) `open`: [FEEDBACK]: Sync attack names between LLMT10 and MLT10 where appropriate
+**Labels**: `issues/general`, `issues/triage`
+
+
+#### <img src="https://avatars.githubusercontent.com/u/795878?u=d704fd433504e531d707c517cdb6ff75bdf20372&v=4" width="50">[kapsolas](https://github.com/kapsolas) opened issue at [2023-11-16 22:16](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187):
+
+### Type
+
+Suggestions for Improvement
+
+### What would you like to report?
+
+I would like to make the suggestion that we consolidate the terms used in the LLM and ML top 10 documents.
+
+Many of the top 10 items in each are closely related or even the same.
+Where possible, the same term should be used (i.e. Model Theft vs Model Stealing, Data Poisoning Attack vs Training data Poisoning).
+
+Thanks!
+
+### Code of Conduct
+
+- [X] I agree to follow this project's Code of Conduct
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#182 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/182) `open`: fix: merge review from @harrietf
 **Labels**: `issues/triage`, `review needed`
 
