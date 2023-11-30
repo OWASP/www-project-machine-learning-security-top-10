@@ -49,7 +49,9 @@ I'd suggest including MLOps-related vulnerabilities in the ML06 (or maybe in som
 
 - [X] I agree to follow this project's Code of Conduct
 
+#### <img src="https://avatars.githubusercontent.com/u/25385987?u=7cdade85961090394618858dfe721238d54373cd&v=4" width="50">[sagarbhure](https://github.com/sagarbhure) commented at [2023-11-28 05:42](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188#issuecomment-1829141861):
 
+In my view it should be in ML06, However is should be better renamed with ML from AI supply chain i believe to keep ourself distinct, How would you recommend adding these in the existing ML06, keeping the attacks generic to other packages
 
 
 -------------------------------------------------------------------------------
@@ -446,7 +448,7 @@ Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks
 -------------------------------------------------------------------------------
 
 # [\#155 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155) `open`: feat(docs): create a cheatsheet for ML07 Transfer Learning Attack
-**Labels**: `enhancement`, `help wanted`, `documentation/cheatsheets`
+**Labels**: `enhancement`, `documentation/cheatsheets`
 
 
 #### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 05:00](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/155):
