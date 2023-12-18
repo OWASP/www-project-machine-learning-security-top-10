@@ -1,5 +1,18 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#194 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194) `open`: chore: github issues archive
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-12-18 04:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194):
+
+- chore: github issues archive
+- chore: github issues archive
+
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#189 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189) `open`: [FEEDBACK]: Include a page with a brief descriptions of each of the vulnerabilities
 **Labels**: `issues/general`, `issues/triage`
 
