@@ -1,5 +1,18 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
+# [\#194 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194) `open`: chore: github issues archive
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-12-18 04:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194):
+
+- chore: github issues archive
+- chore: github issues archive
+
+
+
+
+
+-------------------------------------------------------------------------------
+
 # [\#189 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189) `open`: [FEEDBACK]: Include a page with a brief descriptions of each of the vulnerabilities
 **Labels**: `issues/general`, `issues/triage`
 
@@ -22,7 +35,11 @@ Sometimes  when you e.g. work on some slides for a presentation, you just want t
 
 - [X] I agree to follow this project's Code of Conduct
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:07](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/189#issuecomment-1859518422):
 
+Hi @mik0w is the suggestion to create a summary page? Or to look at enhacing the introductory sections within each of the ML risks so that they can be used as a summary? Or both? 
+
+In either case I think this is a good idea, let me get started on it.
 
 
 -------------------------------------------------------------------------------
@@ -53,6 +70,10 @@ I'd suggest including MLOps-related vulnerabilities in the ML06 (or maybe in som
 
 In my view it should be in ML06, However is should be better renamed with ML from AI supply chain i believe to keep ourself distinct, How would you recommend adding these in the existing ML06, keeping the attacks generic to other packages
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:06](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/188#issuecomment-1859517344):
+
+Hi @mik0w I definitely think we should look at including the ecosystem of MLOps software. I am not sure that it all falls within  supply chain though. Keen to hear your thoughts on this.
+
 
 -------------------------------------------------------------------------------
 
@@ -79,7 +100,17 @@ Thanks!
 
 - [X] I agree to follow this project's Code of Conduct
 
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-12-18 04:03](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187#issuecomment-1859515638):
 
+Hi @kapsolas apologies for the delay in responsing.
+
+Will definitely look to changing "Model Stealing" to "Model Theft". 
+
+In terms of "Data Poisoning v Training data poisoning" I would like to defer to @yodap-dg 
+
+Typically in research papers it is referred to as "Data Poisoning" and I agree that the use case is largely around the training data itself.
+
+What are your thoughts @yodap-dg?
 
 
 -------------------------------------------------------------------------------
@@ -850,90 +881,6 @@ Reference https://github.com/OWASP/www-project-machine-learning-security-top-10/
 #### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-30 01:55](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/130#issuecomment-1784357062):
 
 initial issue mentioned #43
-
-
--------------------------------------------------------------------------------
-
-# [\#129 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129) `open`: fix ePUB Renders.
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) opened issue at [2023-10-20 06:50](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129):
-
-this PR contains fix to #99 and #128 
-
-1. Workflow to automate mirror to the https://mltop10.info/ host GitHub repo.
-2. Fixes MD files, so the ePUB renders without errors.
-3. Fixes alignment of tables.
-
-note, the data in table arrangement is not good so the ePUB variant has jumbled data. This can be revisited once the tabular data is fixed.
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-20 06:54](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1772185642):
-
-Note, this requires a GitHub token of the MLTOP10 Repo, saved with name COPY_TOKEN to do the WF push.
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-30 00:36](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784304978):
-
-> this PR contains fix to #99 and #128
-> 
-> 1. Workflow to automate mirror to the https://mltop10.info/ host GitHub repo.
-> 2. Fixes MD files, so the ePUB renders without errors.
-> 3. Fixes alignment of tables.
-> 
-> note, the data in table arrangement is not good so the ePUB variant has jumbled data. This can be revisited once the tabular data is fixed.
-
-Hi @msnishanth9001 thanks for the PR.
-
-Is the intent of this PR to mirror or to fix formatting issues? Or both?
-
-At this stage the repo for https://mltop10.info is done manually because it needs a manual run of 'quarto' to generate the files. 
-
-The rendering of EPUB and PDF at this stage is more critical then worrying about the mirroring portion IMHO.
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-30 06:46](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784575634):
-
-Hi @shsingh can you please assign me this issue.
-
-The intent is to do both fix mirror and formatting issues. Once the formatting issue is fixed the ePUB generation will be fixed.
-
-the following WF PR will publish ePUB and PDF.
-- https://github.com/mltop10-info/mltop10.info/pull/4
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-30 07:30](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1784623302):
-
-updated PR to remove WF for mirror.
-
-This fixes ePUB and PDF render only.
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-10-31 17:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1787638590):
-
-Hi @msnishanth9001 as your change is only for the _quarto.yml file did you want to add that as a PR to the mltop10-info repo instead?
-
-The _quarto.yml file is not contained under docs/ in this project repository
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-10-31 17:19](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1787651198):
-
-was using it to test the renders, forgot to remove. Done now.
-
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2023-11-05 21:04](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1793845257):
-
-Hi @msnishanth9001,
-
-The files look like they have gone back to cfc455f7b7cb8cdac19e46d2321090e9085f619c
-
-Will they work properly on both the OWASP site as well as render PDF on https://mltop10.info site?
-
-#### <img src="https://avatars.githubusercontent.com/u/49409979?u=069bd6928cc6b4b478a304e0eb660ad4cb9cb505&v=4" width="50">[msnishanth9001](https://github.com/msnishanth9001) commented at [2023-11-06 14:54](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/129#issuecomment-1795014821):
-
-> The files look like they have gone back to https://github.com/OWASP/www-project-machine-learning-security-top-10/commit/cfc455f7b7cb8cdac19e46d2321090e9085f619c
-
-- I have rebased the commit.
-
-> Will they work properly on both the OWASP site as well as render PDF on https://mltop10.info/ site?
-
-- yes. https://mltop10.info/ site needs this PR integrated. https://github.com/mltop10-info/mltop10.info/pull/6.
-- ePUB file to verify ePUB render available on my fork. > https://github.com/msnishanth9001/mltop10.info/blob/epub-fixes/docs/OWASP-Machine-Learning-Security-Top-10.epub
-
-- for the fix to actually take effect you would have to run > quarto render and upload the new ePUB and PDF files. 
-- this WF is to make renders and upload new ePUB and PDF renders every time there is a change in MD files. https://github.com/mltop10-info/mltop10.info/pull/4
 
 
 -------------------------------------------------------------------------------
