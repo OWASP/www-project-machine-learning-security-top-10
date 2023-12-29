@@ -33,7 +33,7 @@ in our
 - [**ML02:2023 Data Poisoning Attack**](/docs/ML02_2023-Data_Poisoning_Attack.md)
 - [**ML03:2023 Model Inversion Attack**](/docs/ML03_2023-Model_Inversion_Attack.md)
 - [**ML04:2023 Membership Inference Attack**](/docs/ML04_2023-Membership_Inference_Attack.md)
-- [**ML05:2023 Model Stealing**](/docs/ML05_2023-Model_Stealing.md)
+- [**ML05:2023 Model Theft**](/docs/ML05_2023-Model_Theft.md)
 - [**ML06:2023 AI Supply Chain Attacks**](/docs/ML06_2023-AI_Supply_Chain_Attacks.md)
 - [**ML07:2023 Transfer Learning Attack**](/docs/ML07_2023-Transfer_Learning_Attack.md)
 - [**ML08:2023 Model Skewing**](/docs/ML08_2023-Model_Skewing.md)

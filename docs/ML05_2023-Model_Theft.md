@@ -7,7 +7,7 @@ auto-migrated: 0
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 5
-title: ML05:2023 Model Stealing
+title: ML05:2023 Model Theft
 lang: en
 tags:
   [
@@ -24,7 +24,7 @@ technical: 4
 
 ## Description
 
-Model stealing attacks occur when an attacker gains access to the model's
+Model theft attacks occur when an attacker gains access to the model's
 parameters.
 
 ## How to Prevent
