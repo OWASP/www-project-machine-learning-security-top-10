@@ -1,11 +1,25 @@
 Export of Github issues for [OWASP/www-project-machine-learning-security-top-10](https://github.com/OWASP/www-project-machine-learning-security-top-10).
 
-# [\#194 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194) `open`: chore: github issues archive
+# [\#200 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/200) `open`: Fixed Typo
 
-#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-12-18 04:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/194):
+#### <img src="https://avatars.githubusercontent.com/u/142174128?u=0c502e66306f7689ff08b4db03d19f36ab952f1b&v=4" width="50">[NextGenSec-Github](https://github.com/NextGenSec-Github) opened issue at [2024-02-14 09:01](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/200):
 
-- chore: github issues archive
-- chore: github issues archive
+Fixed typo in ML04_2023-Membership_Inference_Attack
+Found under ML04_2023-Membership_Inference_Attack > Risk Factors > Threat Agents/Attack Vectors
+
+With Signed Request
+
+
+
+
+-------------------------------------------------------------------------------
+
+# [\#199 PR](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/199) `open`: update Glossary
+
+#### <img src="https://avatars.githubusercontent.com/u/28642576?u=b589501ee0e842e7c3351fe3e6368108d6b79af1&v=4" width="50">[adityoari](https://github.com/adityoari) opened issue at [2024-02-13 12:36](https://github.com/OWASP/www-project-machine-learning-security-top-10/pull/199):
+
+- Add few more terms to main `tab_glossary.md` file
+- Copy content of `tab_glossary.md` file to `docs/glossary.md`
 
 
 
@@ -111,6 +125,15 @@ In terms of "Data Poisoning v Training data poisoning" I would like to defer to 
 Typically in research papers it is referred to as "Data Poisoning" and I agree that the use case is largely around the training data itself.
 
 What are your thoughts @yodap-dg?
+
+#### <img src="https://avatars.githubusercontent.com/u/82461532?v=4" width="50">[yodap-dg](https://github.com/yodap-dg) commented at [2023-12-18 14:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/187#issuecomment-1860606864):
+
+Hi @shsingh
+
+Yes, I agree. It should be Data Poisoning is the term, which is widely used. 
+with regards to Model Theft, LLM10 is defined as Model Theft. @kapsolas 
+
+Thanks!
 
 
 -------------------------------------------------------------------------------
@@ -354,7 +377,7 @@ Ideally the Lead Contributor for ML08 will also be assigned to the cheatsheet - 
 
 -------------------------------------------------------------------------------
 
-# [\#167 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/167) `open`: chore(admin): assign owner(s) for ML05 Model Stealing
+# [\#167 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/167) `open`: chore(admin): assign owner(s) for ML05 Model Theft
 **Labels**: `help wanted`, `documentation/risks`
 
 
@@ -397,7 +420,9 @@ Ideally the Lead Contributor for ML04 will also be assigned to the cheatsheet - 
 
 Ideally the Lead Contributor for ML03 will also be assigned to the cheatsheet - ref: #151 
 
+#### <img src="https://avatars.githubusercontent.com/u/26026416?u=ee66b86c42680cb8be346daba088676c65c8ff24&v=4" width="50">[iJrod](https://github.com/iJrod) commented at [2023-12-18 15:11](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/165#issuecomment-1860769365):
 
+I would like to take this on please @shsingh.
 
 
 -------------------------------------------------------------------------------
@@ -408,12 +433,18 @@ Ideally the Lead Contributor for ML03 will also be assigned to the cheatsheet - 
 
 #### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) opened issue at [2023-10-30 06:21](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163):
 
-- [ ] Assigned Lead Contributor for ML01
-- [ ] Update CODEOWNERS with contributor details
+- [x] Assigned Lead Contributor for ML01
+- [x] Update CODEOWNERS with contributor details
 
 Ideally the Lead Contributor for ML01 will also be assigned to the cheatsheet - ref: #147 
 
+#### <img src="https://avatars.githubusercontent.com/u/99622824?u=5a6f001b0c82775f55f3e9600c2dec3f19e8a782&v=4" width="50">[Benjamin-KY](https://github.com/Benjamin-KY) commented at [2024-02-05 08:56](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163#issuecomment-1926497100):
 
+Hi @shsingh - I'd like to take the lead.
+
+#### <img src="https://avatars.githubusercontent.com/u/412800?v=4" width="50">[shsingh](https://github.com/shsingh) commented at [2024-02-14 09:21](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/163#issuecomment-1943364415):
+
+ref: #202
 
 
 -------------------------------------------------------------------------------
@@ -526,7 +557,7 @@ adding @sagarbhure and @shsingh as backup
 
 -------------------------------------------------------------------------------
 
-# [\#153 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/153) `open`: feat(docs): create a cheatsheet for ML05 Model Stealing
+# [\#153 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/153) `open`: feat(docs): create a cheatsheet for ML05 Model Theft
 **Labels**: `enhancement`, `help wanted`, `documentation/cheatsheets`
 
 
@@ -627,7 +658,12 @@ Example of Top 10 risk referencing cheatsheets: [ML01 Input Manipulation Attacks
 
 
 
+#### <img src="https://avatars.githubusercontent.com/u/99622824?u=5a6f001b0c82775f55f3e9600c2dec3f19e8a782&v=4" width="50">[Benjamin-KY](https://github.com/Benjamin-KY) commented at [2024-02-14 11:17](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/147#issuecomment-1943563952):
 
+1. No existing cheatsheet.
+2. N/A
+3. Looks like we need a new cheatsheet for this topic
+4. I'll take this cheatsheet as an action item.
 
 
 -------------------------------------------------------------------------------
@@ -707,7 +743,7 @@ Video will be uploaded to [OWASP Youtube Channel](https://www.youtube.com/@owasp
 
 -------------------------------------------------------------------------------
 
-# [\#140 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/140) `open`: feat(docs): create a recorded demo of ML05 Model Stealing
+# [\#140 Issue](https://github.com/OWASP/www-project-machine-learning-security-top-10/issues/140) `open`: feat(docs): create a recorded demo of ML05 Model Theft
 **Labels**: `enhancement`, `help wanted`, `documentation/demos`
 
 
