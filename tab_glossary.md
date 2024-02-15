@@ -77,6 +77,9 @@ Process of assigning tags or categories to each data point in a dataset
 [Data poisoning](#data_poisoning)  
 Type of attack that inject poisoning samples into the data
 
+[Deep learning](#deep_learning)  
+Family of machine learning methods based on artificial neural networks with long chains of learnable causal links between actions and effects
+
 ## E {#e}
 
 [Ensemble](#ensemble)  
@@ -96,11 +99,14 @@ See: [Model Ensemble](#model_ensemble)
 
 ## I {#i}
 
+[Input Validation](#input_validation)  
+Input validation is a technique for checking potentially dangerous inputs in order to ensure that the inputs are safe for processing within the code, or when communicating with other components
+
 [Intrusion Detection Systems (IDS)](#ids)  
-Security service that monitors and analyzes network or system events for the purpose of finding, and providing real-time or near real-time warning of, attempts to access system resources in an unauthorized manner.
+Security service that monitors and analyzes network or system events for the purpose of finding, and providing real-time or near real-time warning of, attempts to access system resources in an unauthorized manner
 
 [Intrusion Prevention System (IPS)](#ips)  
-System that can detect an intrusive activity and can also attempt to stop the activity, ideally before it reaches its targets.
+System that can detect an intrusive activity and can also attempt to stop the activity, ideally before it reaches its targets
 
 ## J {#j}
 
@@ -139,7 +145,8 @@ Overfitting is when a statistical model begins to describe the random error in t
 
 ## P {#p}
 
-[]()
+[Perturbation](#perturbation)  
+Noise added to an input sample
 
 ## Q {#q}
 
