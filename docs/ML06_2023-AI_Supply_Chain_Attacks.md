@@ -7,7 +7,7 @@ auto-migrated: 0
 document: OWASP Machine Learning Security Top Ten 2023
 year: 2023
 order: 6
-title: ML06:2023 AI Supply Chain Attacks
+title: ML06:2023 ML Supply Chain Attacks
 lang: en
 tags:
   [
@@ -24,7 +24,7 @@ technical: 4
 
 ## Description
 
-In AI Supply Chain Attacks threat actors target the supply chain of ML/AI models. This category is broad and important, as software supply chain in Machine Learning and AI includes even more elements than in the case of classic software. It consists of specific elements such as MLOps platforms, data management platforms, model management software, model hubs and other specialized types of software that enable ML engineers to effectively test and deploy software.
+In ML Supply Chain Attacks threat actors target the supply chain of ML models. This category is broad and important, as software supply chain in Machine Learning includes even more elements than in the case of classic software. It consists of specific elements such as MLOps platforms, data management platforms, model management software, model hubs and other specialized types of software that enable ML engineers to effectively test and deploy software.
 
 ## How to Prevent
 
