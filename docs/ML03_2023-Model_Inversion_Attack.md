@@ -103,3 +103,5 @@ of the attack was the advertiser successfully automating their advertising
 campaigns by making their bots appear as human users.
 
 ## References
+
+- [OWASP Cheat Sheet Series guidance for ML03 model inversion](cheatsheets/ML03_2023-Model_Inversion_Attack-Cheatsheet.md)
