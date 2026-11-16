@@ -30,7 +30,7 @@ In ML Supply Chain Attacks threat actors target the supply chain of ML models. T
 
 **Verify packages integrity:** Before using any packages in your infrastructure or application dependencies, verify the authenticity of the package by checking the digital signature of the package.
 
-**Keep packages versions up-to-date:** Constantly monitor the latest versions of the packages in your software supply chain and update your dependencies if you are using outdated software. Use tools such as OWASP Dependency Check. Refer to [https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/](OWASP Top10 A06:2021 – Vulnerable and Outdated Components) for more details
+**Keep packages versions up-to-date:** Constantly monitor the latest versions of the packages in your software supply chain and update your dependencies if you are using outdated software. Use tools such as OWASP Dependency Check. Refer to [OWASP Top 10 A06:2021 – Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/) for more details.
 
 **Install packages from secure sources:** Use secure third-party software repositiories, such as
 Anaconda or pip, that enforce strict security measures and have a vetting process for
@@ -74,5 +74,5 @@ An organization decides to use a model from the public model hub. An attacker fi
 
 ## References
 
-[https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/](OWASP Top10 A06:2021 – Vulnerable and Outdated Components)
-[https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/](Model Confusion - Weaponizing ML models for red teams and bounty hunters)
+- [OWASP Top 10 A06:2021 – Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+- [Model Confusion – Weaponizing ML models for red teams and bounty hunters](https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/)
