@@ -50,6 +50,9 @@ and security patches can help reduce the risk of output integrity attacks.
 the interactions between the model and the interface can help detect any
 suspicious activities and respond accordingly.
 
+For implementation guidance, see the
+[ML09 cheatsheet index](cheatsheets/ML09_2023-Output_Integrity_Attack-Cheatsheet.md).
+
 ## Risk Factors
 
 |                                                                                                 Threat Agents/Attack Vectors                                                                                                 |                                                                                                                                        Security Weakness                                                                                                                                        |                                                                                                                                                 Impact                                                                                                                                                 |
