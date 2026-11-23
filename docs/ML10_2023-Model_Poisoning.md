@@ -41,6 +41,9 @@ attacks.
 parameters and weights of the model, and prevent unauthorized access or
 manipulation of these parameters.
 
+For implementation guidance, see the
+[ML10 cheatsheet index](cheatsheets/ML10_2023-Model_Poisoning-Cheatsheet.md).
+
 ## Risk Factors
 
 |                                                                                       Threat Agents/Attack Vectors                                                                                        |                                                                                 Security Weakness                                                                                 |                                                                                                                                             Impact                                                                                                                                              |
