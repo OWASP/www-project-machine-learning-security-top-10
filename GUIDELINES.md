@@ -15,6 +15,8 @@ Document can be used to:
    - Implement prevention strategies in MLOps pipelines to mitigate risks.
    - Assist in monitoring and maintaining the security of ML systems in operation.
 ## Developers
+For an application integration workflow, see the [developer guide](docs/guides/developer.md).
+
 The document can be used in the following ways:
    - Understand the vulnerabilities in order to write secure code for ML applications.
    - Implement prevention strategies in the development process to reduce security risks.
