@@ -10,6 +10,8 @@ The document can be used in the following ways:
    - Implement prevention strategies to ensure data integrity and security.
    - Use risk factors to assess the security of data pipelines and storage.
 ## MLOps
+For a model release and operations workflow, see the [MLOps engineer guide](docs/guides/mlops-engineer.md).
+
 Document can be used to:
    - Understand the vulnerabilities to ensure secure deployment of ML models.
    - Implement prevention strategies in MLOps pipelines to mitigate risks.
