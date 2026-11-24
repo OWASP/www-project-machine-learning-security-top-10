@@ -55,6 +55,9 @@ and can provide a basis for legal action in the event of a theft.
 can help detect and prevent theft by detecting when an attacker is attempting to
 access or steal the model.
 
+For implementation guidance, see the
+[ML05 cheatsheet index](cheatsheets/ML05_2023-Model_Theft-Cheatsheet.md).
+
 ## Risk Factors
 
 |                                                            Threat Agents/Attack Vectors                                                             |                                                         Security Weakness                                                         |                                                                                Impact                                                                                 |
