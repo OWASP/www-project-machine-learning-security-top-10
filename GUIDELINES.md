@@ -1,6 +1,8 @@
 # How different roles can use this document
 
 ## ML Engineer/Analyst
+For a training and evaluation workflow, see the [ML engineer guide](docs/guides/ml-engineer.md).
+
 The document can be used in the following ways:
    - Understand the vulnerabilities that can occur in ML models.
    - Implement the prevention strategies to mitigate the risks associated with each vulnerability listed in the document.
