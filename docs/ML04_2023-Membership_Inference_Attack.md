@@ -82,3 +82,5 @@ included in the training data, allowing them to infer sensitive financial
 information.
 
 **References:**
+
+- [OWASP Cheat Sheet Series guidance for ML04 membership inference](cheatsheets/ML04_2023-Membership_Inference_Attack-Cheatsheet.md)
