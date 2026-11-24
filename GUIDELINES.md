@@ -6,6 +6,8 @@ The document can be used in the following ways:
    - Implement the prevention strategies to mitigate the risks associated with each vulnerability listed in the document.
    - Use the sample attack scenarios to create tests to verify the resilience of models.
 ## Data Engineer
+For a dataset ingestion and promotion workflow, see the [data engineer guide](docs/guides/data-engineer.md).
+
 The document can be used in the following ways:
    - Implement prevention strategies to ensure data integrity and security.
    - Use risk factors to assess the security of data pipelines and storage.
