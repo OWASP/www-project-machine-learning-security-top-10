@@ -19,6 +19,8 @@ The document can be used in the following ways:
    - Understand the vulnerabilities in order to write secure code for ML applications.
    - Implement prevention strategies in the development process to reduce security risks.
 ## Pentester/Security Engineer
+For a practical test workflow, see the [AppSec engineer guide](docs/guides/appsec-engineer.md).
+
 The document can be used in the following ways:
    - Use the document to design and perform penetration tests on ML systems.
    - Use prevention strategies to recommend security improvements.
