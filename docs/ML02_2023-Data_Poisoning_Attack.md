@@ -95,3 +95,5 @@ the model is deployed, potentially leading to misallocation of network resources
 or degradation of network performance.
 
 ## References
+
+- [OWASP Cheat Sheet Series guidance for ML02 data poisoning](cheatsheets/ML02_2023-Data_Poisoning_Attack-Cheatsheet.md)
