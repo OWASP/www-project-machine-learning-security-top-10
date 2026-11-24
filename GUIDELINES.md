@@ -24,6 +24,8 @@ The document can be used in the following ways:
    - Use prevention strategies to recommend security improvements.
 - Use risk factors and threat agents to perform threat modelling of ML systems.
 ## CISO
+For an ownership and risk review workflow, see the [CISO guide](docs/guides/ciso.md).
+
 The document can be used in the following ways:
    - Source for developing comprehensive security policies and strategies for securing ML systems.
    - Guide the organisation's security practices and policies for the secure use of ML.
